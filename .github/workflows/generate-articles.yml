@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "Ameliore-toi Bot"
           git config user.email "bot@ameliore-toi.fr"
-          git add content/ data/article_registry.json
+          git add content/ data/
           DATE=$(date +%Y-%m-%d)
           git diff --cached --quiet || git commit -m "Articles du $DATE : communication, productivite, memorisation"
           git push
