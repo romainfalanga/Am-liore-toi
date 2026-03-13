@@ -1,0 +1,71 @@
+{
+  "articles": [
+    {
+      "date": "2026-03-13",
+      "categorie": "communication",
+      "titre": "Art De Dire Non Sans Culpabilite : transformez votre communication",
+      "prenom": "Camille",
+      "age": 29,
+      "tranche_age": "25-34 ans (jeune professionnel)",
+      "aspect": "art de dire non sans culpabilite",
+      "contexte": "discussion pour fixer des limites dans une relation",
+      "problematique": "evitement des conversations difficiles jusqu'au point de rupture",
+      "slug": "communication-art-de-dire-non-sans-culpabilite-2026-03-13"
+    },
+    {
+      "date": "2026-03-13",
+      "categorie": "productivite",
+      "titre": "Délégation intelligente et lâcher-prise : libérez votre temps",
+      "prenom": "Adrien",
+      "age": 42,
+      "tranche_age": "35-44 ans (professionnel confirme)",
+      "aspect": "delegation intelligente et lacher-prise",
+      "contexte": "management d'une equipe de 10 personnes et de sa propre charge",
+      "problematique": "incapacite a deleguer par manque de confiance en l'autre",
+      "slug": "delegation-intelligente-lacher-prise-management-productivite"
+    },
+    {
+      "date": "2026-03-13",
+      "categorie": "memorisation",
+      "titre": "Maintien Des Acquis Cognitifs Apres 60 Ans : transformez votre memorisation",
+      "prenom": "Simone",
+      "age": 72,
+      "tranche_age": "65+ ans (retraite active)",
+      "aspect": "maintien des acquis cognitifs apres 60 ans",
+      "contexte": "maintien des acquis cognitifs apres 60 ans",
+      "problematique": "croyance limitante 'j'ai une mauvaise memoire'",
+      "slug": "memorisation-maintien-des-acquis-cognitifs-apres-60-a-2026-03-13"
+    }
+  ],
+  "prenoms_utilises": [
+    "Camille",
+    "Adrien",
+    "Simone"
+  ],
+  "combinaisons_utilisees": [
+    {
+      "categorie": "communication",
+      "aspect": "art de dire non sans culpabilite",
+      "contexte": "discussion pour fixer des limites dans une relation",
+      "problematique": "evitement des conversations difficiles jusqu'au point de rupture",
+      "prenom": "Camille",
+      "age": "25-34 ans (jeune professionnel)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "delegation intelligente et lacher-prise",
+      "contexte": "management d'une equipe de 10 personnes et de sa propre charge",
+      "problematique": "incapacite a deleguer par manque de confiance en l'autre",
+      "prenom": "Adrien",
+      "age": "35-44 ans (professionnel confirme)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "maintien des acquis cognitifs apres 60 ans",
+      "contexte": "maintien des acquis cognitifs apres 60 ans",
+      "problematique": "croyance limitante 'j'ai une mauvaise memoire'",
+      "prenom": "Simone",
+      "age": "65+ ans (retraite active)"
+    }
+  ]
+}
