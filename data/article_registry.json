@@ -71,6 +71,42 @@
       "contexte": "apprentissage accelere d'un nouveau domaine professionnel",
       "problematique": "information non structuree qui glisse sans accrocher",
       "slug": "enseigner-pour-memoriser-methode-apprentissage-accelere"
+    },
+    {
+      "date": "2026-03-13",
+      "categorie": "communication",
+      "titre": "Art de la persuasion : convaincre les investisseurs sans peur",
+      "prenom": "Gabriel",
+      "age": 29,
+      "tranche_age": "25-34 ans (jeune professionnel)",
+      "aspect": "art de la persuasion et influence positive",
+      "contexte": "pitch de son projet devant des investisseurs",
+      "problematique": "peur viscerale du jugement qui paralyse l'expression",
+      "slug": "art-persuasion-pitch-investisseurs-influence-positive"
+    },
+    {
+      "date": "2026-03-13",
+      "categorie": "productivite",
+      "titre": "Gestion de l'énergie : optimiser sa productivité après burnout",
+      "prenom": "Isabelle",
+      "age": 49,
+      "tranche_age": "45-54 ans (professionnel senior)",
+      "aspect": "gestion strategique de l'energie et non du temps",
+      "contexte": "reprise progressive apres un burnout",
+      "problematique": "fatigue chronique masquee par la suractivite",
+      "slug": "gestion-energie-productivite-apres-burnout"
+    },
+    {
+      "date": "2026-03-13",
+      "categorie": "memorisation",
+      "titre": "Storytelling pour mémoriser : retenez vos cours magistraux",
+      "prenom": "Arthur",
+      "age": 21,
+      "tranche_age": "18-24 ans (etudiant/jeune actif)",
+      "aspect": "technique du storytelling pour memoriser des concepts",
+      "contexte": "retention d'un cours magistral de 3 heures en amphi",
+      "problematique": "oubli systematique dans les 24h suivant l'apprentissage",
+      "slug": "storytelling-memorisation-cours-magistraux-etudiants"
     }
   ],
   "prenoms_utilises": [
@@ -79,7 +115,10 @@
     "Simone",
     "Nathalie",
     "Lucas",
-    "Sophie"
+    "Sophie",
+    "Gabriel",
+    "Isabelle",
+    "Arthur"
   ],
   "combinaisons_utilisees": [
     {
@@ -129,6 +168,30 @@
       "problematique": "information non structuree qui glisse sans accrocher",
       "prenom": "Sophie",
       "age": "55-64 ans (fin de carriere)"
+    },
+    {
+      "categorie": "communication",
+      "aspect": "art de la persuasion et influence positive",
+      "contexte": "pitch de son projet devant des investisseurs",
+      "problematique": "peur viscerale du jugement qui paralyse l'expression",
+      "prenom": "Gabriel",
+      "age": "25-34 ans (jeune professionnel)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "gestion strategique de l'energie et non du temps",
+      "contexte": "reprise progressive apres un burnout",
+      "problematique": "fatigue chronique masquee par la suractivite",
+      "prenom": "Isabelle",
+      "age": "45-54 ans (professionnel senior)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "technique du storytelling pour memoriser des concepts",
+      "contexte": "retention d'un cours magistral de 3 heures en amphi",
+      "problematique": "oubli systematique dans les 24h suivant l'apprentissage",
+      "prenom": "Arthur",
+      "age": "18-24 ans (etudiant/jeune actif)"
     }
   ]
 }
