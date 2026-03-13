@@ -17,10 +17,9 @@ import requests
 # --- Configuration ---
 API_URL = "https://api.mammouth.ai/v1/chat/completions"
 API_KEY = os.environ.get("MAMMOUTH_API_KEY", "")
-# Modele principal pour la generation d'articles (bon rapport qualite/prix)
-MODEL_ARTICLE = "mistral-large-3"
-# Modele pour le SEO (rapide et economique)
-MODEL_SEO = "mistral-small-3.2-24b-instruct"
+# Modele pour la generation d'articles et le SEO
+MODEL_ARTICLE = "gemini-3-flash-preview"
+MODEL_SEO = "gemini-3-flash-preview"
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 MATRIX_PATH = BASE_DIR / "data" / "matrix.json"
@@ -96,7 +95,9 @@ def call_mammouth(messages, model=MODEL_ARTICLE, max_tokens=3000, temperature=0.
         "temperature": temperature
     }
     resp = requests.post(API_URL, json=payload, headers=headers, timeout=120)
-    resp.raise_for_status()
+    if resp.status_code != 200:
+        print(f"  ERREUR API ({resp.status_code}): {resp.text[:500]}")
+        resp.raise_for_status()
     data = resp.json()
     return data["choices"][0]["message"]["content"]
 
