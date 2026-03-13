@@ -1,0 +1,24 @@
+{
+  "last_indices": {
+    "communication": {
+      "competence": 1,
+      "situation": 11,
+      "problematique": 7
+    },
+    "productivite": {
+      "competence": 1,
+      "situation": 21,
+      "problematique": 7
+    },
+    "memorisation": {
+      "competence": 1,
+      "situation": 11,
+      "problematique": 7
+    }
+  },
+  "generated_combos": [
+    "communication:ecoute active:reunion professionnelle:malentendu",
+    "productivite:gestion du temps:journee surchargee au bureau:procrastination",
+    "memorisation:repetition espacee:preparation d'un examen:oubli rapide apres apprentissage"
+  ]
+}
