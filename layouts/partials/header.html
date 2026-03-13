@@ -1,0 +1,11 @@
+<header class="site-header">
+  <nav class="container">
+    <a href="/" class="logo">Ameliore-toi</a>
+    <ul class="nav-links">
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL }}" {{ if $.IsMenuCurrent "main" . }}class="active"{{ end }}>{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+    <button class="menu-toggle" aria-label="Menu">&#9776;</button>
+  </nav>
+</header>

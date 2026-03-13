@@ -1,0 +1,42 @@
+name: Generate Daily Articles
+
+on:
+  schedule:
+    # Tous les jours a 8h du matin (heure de Paris = 7h UTC en hiver, 6h UTC en ete)
+    # On met 7h UTC pour couvrir l'heure de Paris (CET)
+    - cron: '0 7 * * *'
+  workflow_dispatch: # Permet le declenchement manuel
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate articles
+        env:
+          MAMMOUTH_API_KEY: ${{ secrets.MAMMOUTH_API_KEY }}
+        run: python scripts/generate_articles.py
+
+      - name: Commit and push new articles
+        run: |
+          git config user.name "Ameliore-toi Bot"
+          git config user.email "bot@ameliore-toi.fr"
+          git add content/ data/generation_state.json
+          DATE=$(date +%Y-%m-%d)
+          git diff --cached --quiet || git commit -m "Articles du $DATE : communication, productivite, memorisation"
+          git push

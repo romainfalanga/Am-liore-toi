@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="section-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="section-desc">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section class="articles-list">
+  <div class="container">
+    <div class="articles-grid">
+      {{ range .Pages.ByDate.Reverse }}
+      <article class="article-card">
+        <div class="article-category">{{ with .Params.categories }}{{ index . 0 }}{{ end }}</div>
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <p class="article-excerpt">{{ .Summary | truncate 150 }}</p>
+        <div class="article-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+          <span class="read-time">{{ math.Round (div (countwords .Content) 200.0) }} min de lecture</span>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

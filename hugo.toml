@@ -1,0 +1,52 @@
+baseURL = "/"
+languageCode = "fr"
+title = "Ameliore-toi | Communication, Productivite, Memorisation"
+theme = ""
+defaultContentLanguage = "fr"
+enableRobotsTXT = true
+enableGitInfo = true
+
+[params]
+  description = "Devenez une meilleure version de vous-meme grace a nos articles quotidiens sur la communication, la productivite et la memorisation."
+  author = "Ameliore-toi"
+  mainSections = ["communication", "productivite", "memorisation"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+[outputFormats.JSON]
+  mediaType = "application/json"
+  baseName = "index"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[menu]
+  [[menu.main]]
+    name = "Accueil"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Communication"
+    url = "/communication/"
+    weight = 2
+  [[menu.main]]
+    name = "Productivite"
+    url = "/productivite/"
+    weight = 3
+  [[menu.main]]
+    name = "Memorisation"
+    url = "/memorisation/"
+    weight = 4
