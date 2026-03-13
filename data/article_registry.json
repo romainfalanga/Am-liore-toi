@@ -35,12 +35,51 @@
       "contexte": "maintien des acquis cognitifs apres 60 ans",
       "problematique": "croyance limitante 'j'ai une mauvaise memoire'",
       "slug": "memorisation-maintien-des-acquis-cognitifs-apres-60-a-2026-03-13"
+    },
+    {
+      "date": "2026-03-13",
+      "categorie": "communication",
+      "titre": "Communication bienveillante : apaiser les tensions avec un ado",
+      "prenom": "Nathalie",
+      "age": 48,
+      "tranche_age": "45-54 ans (professionnel senior)",
+      "aspect": "communication bienveillante avec les enfants",
+      "contexte": "discussion educative avec un adolescent rebelle",
+      "problematique": "surcharge emotionnelle qui bloque toute communication rationnelle",
+      "slug": "communication-bienveillante-adolescent-gerer-conflit"
+    },
+    {
+      "date": "2026-03-13",
+      "categorie": "productivite",
+      "titre": "Deep Work et concentration : la méthode pour réussir ses examens",
+      "prenom": "Lucas",
+      "age": 21,
+      "tranche_age": "18-24 ans (etudiant/jeune actif)",
+      "aspect": "maitrise du deep work et concentration intense",
+      "contexte": "semaine de revision intensive avant un examen",
+      "problematique": "addiction aux notifications et dopamine numerique",
+      "slug": "maitriser-deep-work-concentration-revisions-examens"
+    },
+    {
+      "date": "2026-03-13",
+      "categorie": "memorisation",
+      "titre": "Enseigner pour mémoriser : la méthode pour apprendre vite",
+      "prenom": "Sophie",
+      "age": 58,
+      "tranche_age": "55-64 ans (fin de carriere)",
+      "aspect": "enseignement aux autres comme methode de fixation",
+      "contexte": "apprentissage accelere d'un nouveau domaine professionnel",
+      "problematique": "information non structuree qui glisse sans accrocher",
+      "slug": "enseigner-pour-memoriser-methode-apprentissage-accelere"
     }
   ],
   "prenoms_utilises": [
     "Camille",
     "Adrien",
-    "Simone"
+    "Simone",
+    "Nathalie",
+    "Lucas",
+    "Sophie"
   ],
   "combinaisons_utilisees": [
     {
@@ -66,6 +105,30 @@
       "problematique": "croyance limitante 'j'ai une mauvaise memoire'",
       "prenom": "Simone",
       "age": "65+ ans (retraite active)"
+    },
+    {
+      "categorie": "communication",
+      "aspect": "communication bienveillante avec les enfants",
+      "contexte": "discussion educative avec un adolescent rebelle",
+      "problematique": "surcharge emotionnelle qui bloque toute communication rationnelle",
+      "prenom": "Nathalie",
+      "age": "45-54 ans (professionnel senior)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "maitrise du deep work et concentration intense",
+      "contexte": "semaine de revision intensive avant un examen",
+      "problematique": "addiction aux notifications et dopamine numerique",
+      "prenom": "Lucas",
+      "age": "18-24 ans (etudiant/jeune actif)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "enseignement aux autres comme methode de fixation",
+      "contexte": "apprentissage accelere d'un nouveau domaine professionnel",
+      "problematique": "information non structuree qui glisse sans accrocher",
+      "prenom": "Sophie",
+      "age": "55-64 ans (fin de carriere)"
     }
   ]
 }
