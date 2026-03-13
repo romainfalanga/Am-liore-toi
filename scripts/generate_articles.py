@@ -12,6 +12,7 @@ Pipeline en 4 phases :
 import json
 import os
 import re
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -47,8 +48,8 @@ def save_json(path, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def call_mammouth(messages, max_tokens=4000, temperature=0.85):
-    """Appelle l'API Mammouth avec gemini-3-flash-preview."""
+def call_mammouth(messages, max_tokens=4000, temperature=0.85, retries=3):
+    """Appelle l'API Mammouth avec retry automatique en cas d'echec."""
     headers = {
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json"
@@ -59,12 +60,23 @@ def call_mammouth(messages, max_tokens=4000, temperature=0.85):
         "max_tokens": max_tokens,
         "temperature": temperature
     }
-    resp = requests.post(API_URL, json=payload, headers=headers, timeout=180)
-    if resp.status_code != 200:
-        print(f"  ERREUR API ({resp.status_code}): {resp.text[:500]}")
-        resp.raise_for_status()
-    data = resp.json()
-    return data["choices"][0]["message"]["content"]
+    last_error = None
+    for attempt in range(1, retries + 1):
+        try:
+            resp = requests.post(API_URL, json=payload, headers=headers, timeout=180)
+            if resp.status_code == 200:
+                data = resp.json()
+                return data["choices"][0]["message"]["content"]
+            last_error = f"HTTP {resp.status_code}: {resp.text[:300]}"
+            print(f"  ERREUR API tentative {attempt}/{retries} ({resp.status_code}): {resp.text[:300]}")
+        except requests.exceptions.RequestException as e:
+            last_error = str(e)
+            print(f"  ERREUR reseau tentative {attempt}/{retries}: {e}")
+        if attempt < retries:
+            wait = 2 ** attempt
+            print(f"  Nouvelle tentative dans {wait}s...")
+            time.sleep(wait)
+    raise RuntimeError(f"Echec API apres {retries} tentatives. Derniere erreur: {last_error}")
 
 
 def extract_json_from_response(text):
@@ -633,32 +645,58 @@ def main():
     # --- PHASE 2 : Proposition ---
     print("\n[PHASE 2] Proposition de 3 combinaisons uniques...")
     combinations = propose_combinations(matrix, registry, existing_articles)
+
+    # Verifier que les 3 categories sont presentes, sinon reordonner
+    categories_in_combos = [c["categorie"] for c in combinations]
+    for expected_cat in CATEGORIES:
+        if expected_cat not in categories_in_combos:
+            print(f"  ATTENTION: categorie '{expected_cat}' manquante dans les combinaisons!")
+
     for combo in combinations:
         print(f"  [{combo['categorie'].upper()}] {combo['prenom']} ({combo['age_exact']} ans) — {combo['aspect'][:50]}...")
 
     # --- PHASE 3 : Generation ---
     print("\n[PHASE 3] Generation des articles...")
+    success_count = 0
+    failed_categories = []
+
     for combo in combinations:
         cat = combo["categorie"]
         print(f"\n--- {cat.upper()} ---")
 
-        # Generer l'article
-        article_content = generate_article(combo)
+        try:
+            # Generer l'article
+            article_content = generate_article(combo)
 
-        # Generer le SEO
-        print(f"  Generation du SEO...")
-        seo = generate_seo(combo, article_content)
-        print(f"  Titre: {seo.get('title', 'N/A')}")
+            # Generer le SEO
+            print(f"  Generation du SEO...")
+            seo = generate_seo(combo, article_content)
+            print(f"  Titre: {seo.get('title', 'N/A')}")
 
-        # Creer le fichier
-        create_hugo_article(combo, seo, article_content, today)
+            # Creer le fichier
+            create_hugo_article(combo, seo, article_content, today)
 
-        # Mettre a jour le registre
-        update_registry(registry, combo, seo, today)
+            # Mettre a jour le registre
+            update_registry(registry, combo, seo, today)
 
-    # --- PHASE 4 : Sauvegarde ---
-    print("\n[PHASE 4] Mise a jour du registre...")
-    save_json(REGISTRY_PATH, registry)
+            # Sauvegarder le registre apres chaque article reussi
+            save_json(REGISTRY_PATH, registry)
+            print(f"  Registre mis a jour.")
+
+            success_count += 1
+
+        except Exception as e:
+            print(f"  ERREUR pour {cat.upper()}: {e}")
+            print(f"  L'article {cat} n'a pas pu etre genere. Poursuite avec les autres categories...")
+            failed_categories.append(cat)
+            continue
+
+    # --- PHASE 4 : Bilan ---
+    print(f"\n[PHASE 4] Bilan de la generation...")
+    print(f"  Articles generes avec succes: {success_count}/3")
+
+    if failed_categories:
+        print(f"  Categories en echec: {', '.join(failed_categories)}")
 
     total_articles = len(registry["articles"])
     total_prenoms = len(set(registry["prenoms_utilises"]))
@@ -674,8 +712,16 @@ def main():
     print(f"  Potentiel total: {combos_par_cat * 3:,} articles uniques")
 
     print(f"\n{'=' * 70}")
-    print("  Generation terminee avec succes !")
+    if failed_categories:
+        print(f"  Generation terminee avec {len(failed_categories)} echec(s): {', '.join(failed_categories)}")
+        print(f"  Les {success_count} autres articles ont ete generes et sauvegardes.")
+    else:
+        print("  Generation terminee avec succes !")
     print(f"{'=' * 70}")
+
+    # Ne pas faire echouer le workflow si au moins 1 article a ete genere
+    if success_count == 0:
+        raise RuntimeError("Aucun article n'a pu etre genere. Verifiez l'API et les logs.")
 
 
 if __name__ == "__main__":
