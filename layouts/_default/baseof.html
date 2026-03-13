@@ -46,18 +46,74 @@
     "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
     "author": {
       "@type": "Organization",
-      "name": "{{ .Site.Params.author }}"
+      "name": "{{ .Site.Params.author }}",
+      "url": "{{ .Site.BaseURL }}"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "{{ .Site.Params.author }}"
+      "name": "{{ .Site.Params.author }}",
+      "url": "{{ .Site.BaseURL }}"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "{{ .Permalink }}"
-    }
+    },
+    "wordCount": {{ .WordCount }},
+    "inLanguage": "fr-FR"{{ with .Params.keywords }},
+    "keywords": "{{ delimit . ", " }}"{{ end }}{{ with .Params.categories }},
+    "articleSection": "{{ index . 0 }}"{{ end }}
   }
   </script>
+
+  <!-- BreadcrumbList Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "{{ .Site.BaseURL }}"
+      }{{ with .Params.categories }}{{ $cat := index . 0 }},
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ $cat }}",
+        "item": "{{ printf "%s%s/" $.Site.BaseURL ($cat | urlize) }}"
+      }{{ end }},
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "{{ .Title }}"
+      }
+    ]
+  }
+  </script>
+
+  <!-- FAQ Schema -->
+  {{ with .Params.faq }}{{ if gt (len .) 0 }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {{ range $i, $item := . }}{{ if $i }},{{ end }}
+      {
+        "@type": "Question",
+        "name": "{{ $item.question }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ $item.answer }}"
+        }
+      }
+      {{ end }}
+    ]
+  }
+  </script>
+  {{ end }}{{ end }}
+
   {{ else if .IsHome }}
   <script type="application/ld+json">
   {
@@ -65,7 +121,35 @@
     "@type": "WebSite",
     "name": "{{ .Site.Title }}",
     "url": "{{ .Site.BaseURL }}",
-    "description": "{{ .Site.Params.description }}"
+    "description": "{{ .Site.Params.description }}",
+    "inLanguage": "fr-FR",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "{{ .Site.BaseURL }}?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  {{ else if .IsSection }}
+  <!-- BreadcrumbList for section pages -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "{{ .Site.BaseURL }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ .Title }}"
+      }
+    ]
   }
   </script>
   {{ end }}

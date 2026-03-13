@@ -897,3 +897,157 @@ img { max-width: 100%; height: auto; }
   .container { padding: 0 1.25rem; }
   .pillar-card { padding: 2rem 1.5rem; }
 }
+
+/* === BREADCRUMB === */
+.breadcrumb {
+  padding: 1rem 0 0.5rem;
+  font-size: 0.85rem;
+}
+.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 0.25rem;
+}
+.breadcrumb li::after {
+  content: "/";
+  margin-left: 0.4rem;
+  color: var(--color-text-muted);
+}
+.breadcrumb li:last-child::after {
+  display: none;
+}
+.breadcrumb a {
+  color: var(--color-gold);
+  text-decoration: none;
+}
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+.breadcrumb li:last-child {
+  color: var(--color-text-secondary);
+}
+
+/* === TABLE DES MATIERES === */
+.toc {
+  margin: 2rem 0;
+  padding: 1.5rem 2rem;
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  border-left: 3px solid var(--color-gold);
+}
+.toc summary {
+  cursor: pointer;
+  color: var(--color-gold);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.toc details[open] summary {
+  margin-bottom: 1rem;
+}
+.toc nav,
+.toc #TableOfContents {
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+.toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+.toc ul ul {
+  padding-left: 1.25rem;
+}
+.toc a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.toc a:hover {
+  color: var(--color-gold);
+}
+
+/* === WORD COUNT === */
+.word-count {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}
+
+/* === FAQ SECTION === */
+.article-faq {
+  margin: 3rem 0 2rem;
+  padding: 2rem;
+  background: var(--color-bg-elevated);
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+}
+.article-faq h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: var(--color-gold);
+  margin-bottom: 1.5rem;
+}
+.faq-item {
+  border-bottom: 1px solid var(--color-border);
+  padding: 1rem 0;
+}
+.faq-item:last-child {
+  border-bottom: none;
+}
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-text);
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0.25rem 0;
+}
+.faq-item summary:hover {
+  color: var(--color-gold);
+}
+.faq-item p {
+  margin-top: 0.75rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+/* === RELATED ARTICLES === */
+.related-articles {
+  margin: 3rem 0;
+}
+.related-articles h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-text);
+}
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.related-card {
+  display: block;
+  padding: 1.25rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.related-card:hover {
+  background: var(--color-bg-card-hover);
+  border-color: var(--color-border-hover);
+  transform: translateY(-2px);
+}
+.related-card h3 {
+  font-size: 1rem;
+  color: var(--color-text);
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+.related-card .read-time {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
