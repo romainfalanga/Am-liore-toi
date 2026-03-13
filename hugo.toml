@@ -1,7 +1,6 @@
 baseURL = "/"
 languageCode = "fr"
 title = "Ameliore-toi | Communication, Productivite, Memorisation"
-theme = ""
 defaultContentLanguage = "fr"
 enableRobotsTXT = true
 enableGitInfo = true
