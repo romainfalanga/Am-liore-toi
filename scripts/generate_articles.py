@@ -381,20 +381,31 @@ Les tags doivent etre en francais, sans accents, pertinents pour le SEO."""
         temperature=0.3
     )
 
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    fallback = {
+        "title": f"{combo['aspect'].title()} : transformez votre {combo['categorie']}",
+        "description": f"Decouvrez comment surmonter {combo['problematique'][:60]}. 3 solutions concretes.",
+        "slug": f"{combo['categorie']}-{re.sub(r'[^a-z0-9-]', '', combo['aspect'][:40].lower().replace(' ', '-').replace(chr(39), ''))}-{today}",
+        "tags": [combo['categorie'], "developpement-personnel", "amelioration"]
+    }
+
     try:
         seo = extract_json_from_response(response)
         if isinstance(seo, list):
             seo = seo[0]
+        if not isinstance(seo, dict):
+            print(f"  SEO: reponse non-dict ({type(seo).__name__}), utilisation du fallback")
+            return fallback
+        # Valider que les cles essentielles existent
+        for key in ("title", "description", "slug"):
+            if key not in seo or not isinstance(seo[key], str):
+                seo[key] = fallback[key]
+        if "tags" not in seo or not isinstance(seo["tags"], list):
+            seo["tags"] = fallback["tags"]
         return seo
-    except (ValueError, IndexError):
-        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-        slug = re.sub(r'[^a-z0-9-]', '', combo['aspect'][:40].lower().replace(' ', '-').replace("'", ''))
-        return {
-            "title": f"{combo['aspect'].title()} : transformez votre {combo['categorie']}",
-            "description": f"Decouvrez comment surmonter {combo['problematique'][:60]}. 3 solutions concretes.",
-            "slug": f"{combo['categorie']}-{slug}-{today}",
-            "tags": [combo['categorie'], "developpement-personnel", "amelioration"]
-        }
+    except Exception as e:
+        print(f"  SEO: erreur parsing ({e}), utilisation du fallback")
+        return fallback
 
 
 # ============================================================
