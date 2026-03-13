@@ -1,41 +1,53 @@
 {{ define "main" }}
 <section class="hero">
   <div class="container">
-    <h1>Ameliorez-vous chaque jour</h1>
-    <p class="hero-subtitle">3 articles quotidiens pour transformer votre communication, votre productivite et votre memorisation.</p>
+    <div class="hero-badge">Votre transformation commence ici</div>
+    <h1>Devenez la <span class="text-gradient">meilleure version</span> de vous-meme</h1>
+    <p class="hero-subtitle">Chaque jour, 3 nouveaux articles pour maitriser l'art de la communication, decupler votre productivite et developper une memoire exceptionnelle.</p>
     <div class="hero-pillars">
       <a href="/communication/" class="pillar-card pillar-comm">
         <span class="pillar-icon">&#128172;</span>
         <h2>Communication</h2>
-        <p>Maitrisez l'art de communiquer dans toutes les situations</p>
+        <p>Maitrisez l'art de vous exprimer et de creer des connexions authentiques</p>
       </a>
       <a href="/productivite/" class="pillar-card pillar-prod">
         <span class="pillar-icon">&#9889;</span>
         <h2>Productivite</h2>
-        <p>Optimisez votre temps et decuplez vos resultats</p>
+        <p>Optimisez chaque heure et accomplissez l'extraordinaire au quotidien</p>
       </a>
       <a href="/memorisation/" class="pillar-card pillar-memo">
         <span class="pillar-icon">&#129504;</span>
         <h2>Memorisation</h2>
-        <p>Developpez une memoire exceptionnelle au quotidien</p>
+        <p>Developpez une memoire remarquable qui vous donne un avantage decisif</p>
       </a>
     </div>
   </div>
 </section>
 
+<hr class="section-divider">
+
 <section class="latest-articles">
   <div class="container">
-    <h2>Derniers articles</h2>
+    <div class="section-title">
+      <h2>Derniers articles</h2>
+    </div>
     <div class="articles-grid">
       {{ $pages := where .Site.RegularPages "Section" "ne" "" }}
       {{ range first 9 (sort $pages "Date" "desc") }}
-      <article class="article-card {{ with .Params.categories }}{{ index . 0 | urlize }}{{ end }}">
-        <div class="article-category">{{ with .Params.categories }}{{ index . 0 }}{{ end }}</div>
-        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-        <p class="article-excerpt">{{ .Summary | truncate 150 }}</p>
-        <div class="article-meta">
-          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
-          <span class="read-time">{{ math.Round (div (countwords .Content) 200.0) }} min de lecture</span>
+      {{ $cat := "" }}{{ with .Params.categories }}{{ $cat = index . 0 | urlize }}{{ end }}
+      <article class="article-card reveal">
+        <div class="article-card-body">
+          <div class="article-category cat-{{ $cat }}">{{ with .Params.categories }}{{ index . 0 }}{{ end }}</div>
+          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          <p class="article-excerpt">{{ .Summary | truncate 150 }}</p>
+          <div class="article-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+            <span class="read-time">{{ math.Round (div (countwords .Content) 200.0) }} min de lecture</span>
+          </div>
+          <a href="{{ .Permalink }}" class="btn-read">
+            <span>Lire l'article</span>
+            <span class="btn-arrow">&rarr;</span>
+          </a>
         </div>
       </article>
       {{ end }}
