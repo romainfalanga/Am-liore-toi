@@ -11,20 +11,17 @@
   <div class="container">
     <div class="articles-grid">
       {{ range .Pages.ByDate.Reverse }}
-      {{ $cat := "" }}{{ with .Params.categories }}{{ $cat = index . 0 | urlize }}{{ end }}
       <article class="article-card reveal">
         <div class="article-card-body">
-          <div class="article-category cat-{{ $cat }}">{{ with .Params.categories }}{{ index . 0 }}{{ end }}</div>
-          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-          <p class="article-excerpt">{{ .Summary | truncate 150 }}</p>
-          <div class="article-meta">
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+          <h3 class="article-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          <p class="article-card-excerpt">{{ .Summary | plainify | truncate 160 }}</p>
+          <div class="article-card-footer">
             <span class="read-time">{{ math.Round (div (countwords .Content) 200.0) }} min de lecture</span>
+            <a href="{{ .Permalink }}" class="btn-read">
+              <span>Lire l'article</span>
+              <span class="btn-arrow">&rarr;</span>
+            </a>
           </div>
-          <a href="{{ .Permalink }}" class="btn-read">
-            <span>Lire l'article</span>
-            <span class="btn-arrow">&rarr;</span>
-          </a>
         </div>
       </article>
       {{ end }}
