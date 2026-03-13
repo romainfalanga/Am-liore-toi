@@ -33,20 +33,17 @@
   <div class="container">
     <div class="section-title">
       <h2>{{ $sectionName }}</h2>
-      <a href="/{{ $sectionKey }}/" class="section-link">Tous les articles</a>
+      <a href="/{{ $sectionKey }}/" class="section-link">Tous les articles &rarr;</a>
     </div>
     <div class="articles-grid">
       {{ range $latestPages }}
       <article class="article-card reveal">
         <div class="article-card-body">
           <h3 class="article-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-          <p class="article-card-excerpt">{{ .Summary | plainify | truncate 160 }}</p>
+          <p class="article-card-excerpt">{{ with .Params.description }}{{ . | truncate 160 }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}</p>
           <div class="article-card-footer">
             <span class="read-time">{{ math.Round (div (countwords .Content) 200.0) }} min de lecture</span>
-            <a href="{{ .Permalink }}" class="btn-read">
-              <span>Lire l'article</span>
-              <span class="btn-arrow">&rarr;</span>
-            </a>
+            <a href="{{ .Permalink }}" class="btn-read">Lire l'article</a>
           </div>
         </div>
       </article>
