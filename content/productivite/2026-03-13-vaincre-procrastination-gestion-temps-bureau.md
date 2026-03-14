@@ -2,15 +2,15 @@
 title: "Vaincre la procrastination au bureau : gérez votre temps"
 date: 2026-03-13T08:04:00+01:00
 description: "Journée surchargée ? Découvrez comment arrêter de procrastiner et reprendre le contrôle de votre gestion du temps dès aujourd'hui. Lisez nos conseils !"
-categories: ["Productivite"]
-tags: ["gestion du temps", "productivite", "procrastination", "travail", "efficacite"]
+categories: ["Productivité"]
+tags: ["gestion du temps", "productivité", "procrastination", "travail", "efficacite"]
 slug: "vaincre-procrastination-gestion-temps-bureau"
 draft: false
 ---
 
 Lundi matin, 8h45. Thomas s’assoit à son bureau, une tasse de café fumant à la main. En ouvrant sa boîte mail, son cœur manque un bond : 42 nouveaux messages. Son logiciel de gestion de projet clignote de notifications rouges, et une pile de dossiers semble le narguer du coin de l’œil. La journée s'annonce chargée, une montagne de tâches l'attend.
 
-Pourtant, au lieu de s'attaquer au rapport financier urgent, Thomas ouvre machinalement un onglet LinkedIn. "Juste cinq minutes pour me mettre dans le bain", se murmure-t-il. Dix minutes plus tard, il est en train de lire un article sur l'élevage des alpagas au Pérou. Le téléphone sonne. C’est sa collègue, Julie : « Thomas, tu en es où pour la présentation de 14h ? ». Un frisson de panique lui parcourt l'échine. « J'y travaille, Julie ! », ment-il maladroitement.
+Pourtant, au lieu de s'attaquer au rapport financier urgent, Thomas ouvre machinalement un onglet LinkedIn. "Juste cinq minutes pour me mettre dans le bain", se murmure-t-il. Dix minutes plus tard, il est en train de lire un article sur l'élevage des alpagas au Pérou. Le téléphone sonne. C’est sa collègue, Julie : « Thomas, tu en es ou pour la présentation de 14h ? ». Un frisson de panique lui parcourt l'échine. « J'y travaille, Julie ! », ment-il maladroitement.
 
 Il raccroche, le front moite. Il se sent épuisé avant même d'avoir commencé. Pour se donner du courage, il décide de ranger ses stylos par couleur, puis de répondre à trois mails sans importance. À midi, le rapport n'a pas avancé d'une ligne. Thomas fixe son écran, la gorge nouée. C'est le paradoxe du bureau surchargé : plus la liste de tâches s'allonge, plus son cerveau semble chercher désespérément une porte de sortie, l'entraînant dans une spirale d'évitement. C’est à ce moment précis, en voyant le curseur clignoter sur une page blanche, qu’il réalise : son problème n’est pas le manque de temps, mais sa peur de commencer.
 

@@ -16,7 +16,7 @@ La salle de réunion "Bruegel" était plongée dans une atmosphère électrique.
 
 Thomas se sentit piqué au vif. Il avait passé trois nuits blanches sur ce design. « Marc, tu m’as dit lundi dernier que tu voulais de la "clarté" et de la "modernité". C’est exactement ce que j’ai fait ! » rétorqua-t-il, la gorge serrée.
 
-Le reste de l'équipe observait l'échange en silence, fixant leurs tasses de café ou le bout de leurs chaussures. Thomas voyait les sourcils de Marc se froncer davantage. Dans sa tête, il préparait déjà sa prochaine réplique, cherchant tous les arguments possibles pour prouver qu’il avait raison. Il n’écoutait plus Marc ; il écoutait le bruit de sa propre défense intérieure.
+Le reste de l'équipe observait l'échange en silence, fixant leurs tasses de café ou le bout de leurs chaussures. Thomas voyait les sourcils de Marc se froncer davantage. Dans sa tête, il préparait déjà sa prochaine réplique, cherchant tous les arguments possibles pour prouvér qu’il avait raison. Il n’écoutait plus Marc ; il écoutait le bruit de sa propre défense intérieure.
 
 C'est alors qu'il croisa le regard de Julie, la consultante senior. Elle ne disait rien, mais elle l'observait avec une sorte de bienveillance calme. En un éclair, Thomas se rendit compte d'une chose troublante : il n'avait aucune idée de ce que Marc entendait réellement par "identité de la marque". Ils utilisaient les mêmes mots, mais leurs définitions étaient à des années-lumière l'une de l'autre. Le malaise qui pesait dans la pièce n'était pas dû à une erreur créative, mais à un pont brisé entre deux interprétations. Thomas venait de réaliser qu'il avait confondu "entendre des instructions" et "comprendre une intention".
 
@@ -65,7 +65,7 @@ L'écoute active demande du calme intérieur. Souvent, nous commençons à formu
 Pendant la réunion, pose ton stylo. Regarde la personne qui parle et concentre-toi sur son langage non-verbal (ton de voix, posture). Une fois qu'elle s'arrête, compte mentalement "un, deux" avant de prendre la parole. Ce micro-délai change radicalement la qualité de ta réponse.
 
 **Exemple en réunion :**
-Si Thomas avait marqué cette pause, il aurait perçu l'inquiétude de Marc (le stress de rater le lancement) plutôt que de ne voir que son agression apparente. Il aurait répondu à l'émotion de son chef plutôt qu'à son attaque.
+Si Thomas avait marqué cette pause, il aurait perçu l'inquiétude de Marc (le stress de ratér le lancement) plutôt que de ne voir que son agression apparente. Il aurait répondu à l'émotion de son chef plutôt qu'à son attaque.
 
 ## Deviens le maître de tes échanges
 

@@ -2,15 +2,15 @@
 title: "Répétition espacée : mémoriser pour réussir ses examens"
 date: 2026-03-13T08:03:00+01:00
 description: "Marre d'oublier vos cours ? Découvrez comment la répétition espacée booste votre mémoire et garantit votre réussite aux examens. Apprenez la méthode ici !"
-categories: ["Memorisation"]
-tags: ["repetition espacee", "memorisation", "revision examen", "apprentissage", "methode de travail"]
-slug: "repetition-espacee-memorisation-examen"
+categories: ["Mémorisation"]
+tags: ["repetition espacee", "mémorisation", "revision examen", "apprentissage", "méthode de travail"]
+slug: "repetition-espacee-mémorisation-examen"
 draft: false
 ---
 
 Il est deux heures du matin, et Thomas fixe ses fiches de révision avec une sensation de vertige. Dans trois jours, il passe son examen final de droit civil. Les tasses de café vides s’empilent sur son bureau, à côté d'un paquet de surligneurs dont la pointe commence à s'assécher. 
 
-Pourtant, il y a une semaine, Thomas était fier de lui. Il avait passé dix heures d’affilée à mémoriser le Code Civil. Il avait l’impression de tout maîtriser. Mais ce soir, alors qu’il tente de se remémorer les conditions de validité d’un contrat, c'est le trou noir. « C’est pas possible, j’ai pourtant passé l’après-midi complet là-dessus lundi dernier ! » soupire-t-il en se frottant les yeux. Les mots semblent s'être évaporés de son cerveau comme de la buée sur une vitre. 
+Pourtant, il y à une semaine, Thomas était fier de lui. Il avait passé dix heures d’affilée à mémoriser le Code Civil. Il avait l’impression de tout maîtriser. Mais ce soir, alors qu’il tente de se remémorer les conditions de validité d’un contrat, c'est le trou noir. « C’est pas possible, j’ai pourtant passé l’après-midi complet là-dessus lundi dernier ! » soupire-t-il en se frottant les yeux. Les mots semblent s'être évaporés de son cerveau comme de la buée sur une vitre. 
 
 Il ouvre son classeur, relit la page, et se dit : « Ah mais oui, je le sais ça ! ». Mais dès qu’il referme le dossier, l’information s’échappe à nouveau. C’est le cercle vicieux du "bourrage de crâne". Thomas se rend compte que son cerveau fonctionne comme une passoire : il a versé énormément d’eau (les connaissances) très vite, mais rien n'est resté au fond. Il réalise avec effroi que réviser intensément une seule fois est une illusion de maîtrise. Il a travaillé dur, mais il n'a pas travaillé avec la biologie de sa mémoire.
 

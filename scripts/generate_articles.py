@@ -29,6 +29,7 @@ REGISTRY_PATH = BASE_DIR / "data" / "article_registry.json"
 CONTENT_DIR = BASE_DIR / "content"
 
 CATEGORIES = ["communication", "productivite", "memorisation"]
+CAT_LABELS = {"communication": "Communication", "productivite": "Productivité", "memorisation": "Mémorisation"}
 
 
 # ============================================================
@@ -297,8 +298,7 @@ def generate_article(combo):
     """Genere un article profond, riche et a forte valeur ajoutee."""
 
     cat = combo["categorie"]
-    cat_labels = {"communication": "Communication", "productivite": "Productivité", "memorisation": "Mémorisation"}
-    cat_label = cat_labels[cat]
+    cat_label = CAT_LABELS[cat]
 
     prenom = combo['prenom']
     age = combo['age_exact']
@@ -307,110 +307,111 @@ def generate_article(combo):
     pronom_son = "son" if genre == "masculin" else "sa" if genre == "feminin" else "son"
     metier = combo.get('metier_ou_role', 'non precise')
 
-    system_prompt = f"""Tu es un auteur expert en developpement personnel, specialise en {cat_label.lower()}.
-Tu ecris des articles de blog en francais d'une qualite exceptionnelle.
-Ton style combine la rigueur d'un psychologue clinicien, la clarte d'un pedagogue experimente et la chaleur d'un ami bienveillant.
-Tu utilises le tutoiement pour creer une proximite naturelle avec le lecteur.
+    system_prompt = f"""Tu es un auteur expert en développement personnel, spécialisé en {cat_label.lower()}.
+Tu écris des articles de blog en français d'une qualité exceptionnelle.
+Ton style combine la rigueur d'un psychologue clinicien, la clarté d'un pédagogue expérimenté et la chaleur d'un ami bienveillant.
+Tu utilises le tutoiement pour créer une proximité naturelle avec le lecteur.
 
-REGLES DE STYLE ABSOLUES :
+RÈGLES DE STYLE ABSOLUES :
 - Tu n'utilises JAMAIS le tiret cadratin (—) ni le tiret demi-cadratin (–) comme ponctuation.
 - Tu reformules toujours avec des virgules, des points, des deux-points ou des points-virgules.
-- Tu evites les formulations generiques et les phrases creuses. Chaque phrase doit enseigner quelque chose ou faire ressentir une emotion.
+- Tu évites les formulations génériques et les phrases creuses. Chaque phrase doit enseigner quelque chose ou faire ressentir une émotion.
 - Tu ne commences JAMAIS une phrase par "En fait", "En effet", "Il est important de noter", "Force est de constater", "Il convient de".
-- Tu evites les listes a puces quand une prose fluide est plus naturelle.
-- Tu ecris comme un humain qui a vecu, pas comme un assistant qui compile des informations.
+- Tu évites les listes à puces quand une prose fluide est plus naturelle.
+- Tu écris comme un humain qui a vécu, pas comme un assistant qui compile des informations.
 - Tu varies la longueur de tes phrases : certaines courtes et percutantes, d'autres longues et immersives.
-- Tu utilises des transitions naturelles entre les paragraphes, jamais de formules mecaniques."""
+- Tu utilises des transitions naturelles entre les paragraphes, jamais de formules mécaniques.
+- Tu utilises TOUJOURS les accents français corrects (é, è, ê, ë, à, â, ù, û, ô, î, ï, ç). Ne jamais écrire sans accents."""
 
-    user_prompt = f"""Ecris un article de blog EXCEPTIONNEL et COMPLET pour la categorie {cat_label}.
-Cet article doit etre une reference sur le sujet, le genre de contenu qu'on met en favori pour y revenir.
+    user_prompt = f"""Écris un article de blog EXCEPTIONNEL et COMPLET pour la catégorie {cat_label}.
+Cet article doit être une référence sur le sujet, le genre de contenu qu'on met en favori pour y revenir.
 
 PROFIL DU PERSONNAGE :
-- Prenom : {prenom}
-- Age : {age} ans ({combo['tranche_age']})
-- Metier/role : {metier}
+- Prénom : {prenom}
+- Âge : {age} ans ({combo['tranche_age']})
+- Métier/rôle : {metier}
 - Genre : {genre}
 
-PARAMETRES PRECIS :
-- Aspect traite : {combo['aspect']}
+PARAMÈTRES PRÉCIS :
+- Aspect traité : {combo['aspect']}
 - Contexte de vie : {combo['contexte']}
-- Problematique profonde : {combo['problematique']}
+- Problématique profonde : {combo['problematique']}
 
 STRUCTURE OBLIGATOIRE (respecte scrupuleusement ces titres de sections) :
 
 ## L'histoire de {prenom}
 
-Raconte une histoire VIVANTE, IMMERSIVE et DETAILLEE de {prenom}, {age} ans, {metier}. Cette section doit faire entre 500 et 700 mots.
-- Plante le decor avec des details sensoriels precis : la lumiere dans la piece, les sons ambiants, ce que {prenom} ressent physiquement (gorge nouee, mains moites, tension dans les epaules).
-- Montre la problematique "{combo['problematique']}" en ACTION a travers une scene concrete dans le contexte "{combo['contexte']}".
-- Integre des dialogues realistes et naturels, avec les hesitations et les non-dits qui rendent une conversation vraie.
-- Developpe les pensees interieures de {prenom} : ce qu'{pronom_il} se dit, les doutes qui tournent en boucle, les strategies d'evitement.
-- Montre les CONSEQUENCES en cascade : comment ce probleme affecte {pronom_son} travail, ses relations, {pronom_son} estime de soi, {pronom_son} sommeil.
-- Integre un second personnage significatif (collegue, proche, mentor) qui joue un role dans la prise de conscience.
-- Termine par un moment declencheur puissant : un echec cuisant, un feedback brutal, ou une revelation inattendue qui force {prenom} a ouvrir les yeux.
+Raconte une histoire VIVANTE, IMMERSIVE et DÉTAILLÉE de {prenom}, {age} ans, {metier}. Cette section doit faire entre 500 et 700 mots.
+- Plante le décor avec des détails sensoriels précis : la lumière dans la pièce, les sons ambiants, ce que {prenom} ressent physiquement (gorge nouée, mains moites, tension dans les épaules).
+- Montre la problématique "{combo['problematique']}" en ACTION à travers une scène concrète dans le contexte "{combo['contexte']}".
+- Intègre des dialogues réalistes et naturels, avec les hésitations et les non-dits qui rendent une conversation vraie.
+- Développe les pensées intérieures de {prenom} : ce qu'{pronom_il} se dit, les doutes qui tournent en boucle, les stratégies d'évitement.
+- Montre les CONSÉQUENCES en cascade : comment ce problème affecte {pronom_son} travail, ses relations, {pronom_son} estime de soi, {pronom_son} sommeil.
+- Intègre un second personnage significatif (collègue, proche, mentor) qui joue un rôle dans la prise de conscience.
+- Termine par un moment déclencheur puissant : un échec cuisant, un feedback brutal, ou une révélation inattendue qui force {prenom} à ouvrir les yeux.
 - Le lecteur doit se dire "c'est exactement ce que je vis" en lisant cette histoire.
 
-## Pourquoi ce probleme te concerne aussi
+## Pourquoi ce problème te concerne aussi
 
 Cette section fait entre 400 et 500 mots. Elle est le pont entre l'histoire et les solutions.
-- Interpelle directement le lecteur : fais le lien entre l'experience de {prenom} et ce que le lecteur vit probablement au quotidien.
-- Donne un nom precis au phenomene psychologique en jeu. Cite le concept, son auteur si possible, et explique le en termes accessibles.
-- Explique les mecanismes inconscients qui entretiennent cette problematique : pourquoi on tombe dans ce piege malgre notre bonne volonte.
-- Presente 4 signes concrets et specifiques pour reconnaitre ce schema chez soi. Chaque signe doit etre decrit en 2 a 3 phrases avec un exemple du quotidien.
-- Decris les consequences a moyen terme (3 a 6 mois) et a long terme (1 a 3 ans) si rien ne change. Sois precis et realiste, sans dramatiser.
-- Appuie ton propos sur au moins une etude, une statistique ou une reference scientifique credible.
+- Interpelle directement le lecteur : fais le lien entre l'expérience de {prenom} et ce que le lecteur vit probablement au quotidien.
+- Donne un nom précis au phénomène psychologique en jeu. Cite le concept, son auteur si possible, et explique-le en termes accessibles.
+- Explique les mécanismes inconscients qui entretiennent cette problématique : pourquoi on tombe dans ce piège malgré notre bonne volonté.
+- Présente 4 signes concrets et spécifiques pour reconnaître ce schéma chez soi. Chaque signe doit être décrit en 2 à 3 phrases avec un exemple du quotidien.
+- Décris les conséquences à moyen terme (3 à 6 mois) et à long terme (1 à 3 ans) si rien ne change. Sois précis et réaliste, sans dramatiser.
+- Appuie ton propos sur au moins une étude, une statistique ou une référence scientifique crédible.
 
-## La methode pour transformer ta {cat_label.lower()}
+## La méthode pour transformer ta {cat_label.lower()}
 
-Introduis cette section avec un court paragraphe (3 a 4 phrases) qui explique la philosophie derriere les solutions : pourquoi elles fonctionnent et comment elles se completent les unes les autres.
+Introduis cette section avec un court paragraphe (3 à 4 phrases) qui explique la philosophie derrière les solutions : pourquoi elles fonctionnent et comment elles se complètent les unes les autres.
 
-### Strategie 1 : [Titre concret et actionnable]
+### Stratégie 1 : [Titre concret et actionnable]
 
-Cette premiere strategie est un quick win applicable des aujourd'hui. Elle doit faire 250 a 350 mots.
-- Explique le PRINCIPE en 2 a 3 phrases claires.
-- Decris le mecanisme psychologique ou cognitif qui rend cette technique efficace. Pourquoi ca fonctionne au niveau du cerveau ?
-- Donne un PROTOCOLE PRECIS, etape par etape, que le lecteur peut suivre sans interpretation.
-- Reviens a l'histoire de {prenom} : montre exactement comment {pronom_il} aurait pu appliquer cette strategie dans la scene decrite plus haut. Ecris la scene alternative.
-- Decris le resultat attendu apres 7 jours d'application reguliere.
+Cette première stratégie est un quick win applicable dès aujourd'hui. Elle doit faire 250 à 350 mots.
+- Explique le PRINCIPE en 2 à 3 phrases claires.
+- Décris le mécanisme psychologique ou cognitif qui rend cette technique efficace. Pourquoi ça fonctionne au niveau du cerveau ?
+- Donne un PROTOCOLE PRÉCIS, étape par étape, que le lecteur peut suivre sans interprétation.
+- Reviens à l'histoire de {prenom} : montre exactement comment {pronom_il} aurait pu appliquer cette stratégie dans la scène décrite plus haut. Écris la scène alternative.
+- Décris le résultat attendu après 7 jours d'application régulière.
 
-### Strategie 2 : [Titre concret et actionnable]
+### Stratégie 2 : [Titre concret et actionnable]
 
-Cette deuxieme strategie est une habitude a construire sur 2 a 4 semaines. Elle doit faire 250 a 350 mots.
-- Meme structure que la strategie 1.
-- Explique pourquoi cette habitude necessite du temps et comment le cerveau s'y adapte progressivement.
-- Donne un planning precis : que faire la semaine 1, la semaine 2, etc.
-- Montre comment {prenom} aurait integre cette habitude dans {pronom_son} routine quotidienne.
-- Decris les resultats attendus apres 3 a 4 semaines.
+Cette deuxième stratégie est une habitude à construire sur 2 à 4 semaines. Elle doit faire 250 à 350 mots.
+- Même structure que la stratégie 1.
+- Explique pourquoi cette habitude nécessite du temps et comment le cerveau s'y adapte progressivement.
+- Donne un planning précis : que faire la semaine 1, la semaine 2, etc.
+- Montre comment {prenom} aurait intégré cette habitude dans {pronom_son} routine quotidienne.
+- Décris les résultats attendus après 3 à 4 semaines.
 
-### Strategie 3 : [Titre concret et actionnable]
+### Stratégie 3 : [Titre concret et actionnable]
 
-Cette troisieme strategie est un changement de perspective profond. Elle doit faire 250 a 350 mots.
-- Explique la croyance limitante que cette strategie vient deconstruire.
-- Propose une nouvelle facon de voir la situation, avec une analogie ou une metaphore memorable.
-- Donne un exercice de reflexion ou d'ecriture que le lecteur peut faire en 15 a 20 minutes.
-- Montre le basculement mental que {prenom} a du operer pour sortir de {pronom_son} schema.
-- Decris la transformation profonde que ce changement de mentalite produit sur 2 a 3 mois.
+Cette troisième stratégie est un changement de perspective profond. Elle doit faire 250 à 350 mots.
+- Explique la croyance limitante que cette stratégie vient déconstruire.
+- Propose une nouvelle façon de voir la situation, avec une analogie ou une métaphore mémorable.
+- Donne un exercice de réflexion ou d'écriture que le lecteur peut faire en 15 à 20 minutes.
+- Montre le basculement mental que {prenom} a dû opérer pour sortir de {pronom_son} schéma.
+- Décris la transformation profonde que ce changement de mentalité produit sur 2 à 3 mois.
 
-## Ce que {prenom} a decide de changer
+## Ce que {prenom} a décidé de changer
 
-Epilogue de 200 a 300 mots. Raconte comment {prenom} a mis en pratique les strategies.
-- Montre {prenom} 3 mois plus tard dans une situation similaire a celle du debut, mais avec un comportement radicalement different.
-- Decris les resultats concrets et mesurables qu'{pronom_il} a obtenus.
-- Termine par un paragraphe qui s'adresse directement au lecteur, l'encourage a passer a l'action sans pression, et lui rappelle qu'un premier petit pas suffit.
-- La derniere phrase doit etre inspirante et memorable, le genre de phrase qu'on a envie de noter quelque part.
+Épilogue de 200 à 300 mots. Raconte comment {prenom} a mis en pratique les stratégies.
+- Montre {prenom} 3 mois plus tard dans une situation similaire à celle du début, mais avec un comportement radicalement différent.
+- Décris les résultats concrets et mesurables qu'{pronom_il} a obtenus.
+- Termine par un paragraphe qui s'adresse directement au lecteur, l'encourage à passer à l'action sans pression, et lui rappelle qu'un premier petit pas suffit.
+- La dernière phrase doit être inspirante et mémorable, le genre de phrase qu'on a envie de noter quelque part.
 
-REGLES D'ECRITURE IMPERATIVES :
-- N'ecris PAS de titre H1 (il est genere automatiquement via le front matter).
-- Utilise ## pour les 4 sections principales et ### pour les 3 strategies uniquement.
+RÈGLES D'ÉCRITURE IMPÉRATIVES :
+- N'écris PAS de titre H1 (il est généré automatiquement via le front matter).
+- Utilise ## pour les 4 sections principales et ### pour les 3 stratégies uniquement.
 - Le contenu total doit faire entre 2500 et 3500 mots. C'est un article de fond, pas un billet rapide.
-- ZERO phrase de remplissage. Si une phrase n'enseigne pas ou ne fait pas ressentir, supprime la.
+- ZÉRO phrase de remplissage. Si une phrase n'enseigne pas ou ne fait pas ressentir, supprime-la.
 - N'utilise JAMAIS le tiret cadratin (—) ni le tiret demi-cadratin (–) comme ponctuation. Utilise des virgules, des points, des deux-points ou des points-virgules.
 - N'utilise AUCUN emoji dans le texte.
 - Ne commence jamais un paragraphe par "Il est important", "Force est de constater", "En effet", "En fait", "Notons que".
-- Les solutions doivent etre ultra-specifiques a la tranche d'age {combo['tranche_age']} et au contexte "{combo['contexte']}".
-- Utilise des metaphores et analogies originales pour rendre les concepts memorables.
-- Integre des chiffres, des references scientifiques ou des etudes quand c'est pertinent.
-- Les dialogues doivent sonner vrais : hesitations, phrases inachevees, langage du quotidien.
+- Les solutions doivent être ultra-spécifiques à la tranche d'âge {combo['tranche_age']} et au contexte "{combo['contexte']}".
+- Utilise des métaphores et analogies originales pour rendre les concepts mémorables.
+- Intègre des chiffres, des références scientifiques ou des études quand c'est pertinent.
+- Les dialogues doivent sonner vrais : hésitations, phrases inachevées, langage du quotidien.
 - Chaque section doit se terminer par une transition naturelle vers la suivante."""
 
     print(f"  Generation de l'article ({prenom}, {age} ans, {cat})...")
@@ -588,13 +589,13 @@ title: "{title_safe}"
 date: {today}T{article_hour:02d}:{article_minute:02d}:00+01:00
 lastmod: {today}T{article_hour:02d}:{article_minute:02d}:00+01:00
 description: "{desc_safe}"
-categories: ["{cat.title()}"]
+categories: ["{CAT_LABELS.get(cat, cat.title())}"]
 tags: [{tags_str}]
 keywords: [{keywords_str}]
 slug: "{slug}"
 readingTime: {read_time}
 wordCount: {word_count}
-author: "Ameliore-toi"
+author: "Améliore-toi"
 {faq_yaml}draft: false
 ---
 

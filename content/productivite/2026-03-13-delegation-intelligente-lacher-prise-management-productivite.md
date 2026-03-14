@@ -2,9 +2,9 @@
 title: "Délégation intelligente et lâcher-prise : libérez votre temps"
 date: 2026-03-13T08:01:00+01:00
 description: "Manager 10 personnes sans s'épuiser ? Découvrez comment Adrien a maîtrisé la délégation intelligente pour retrouver sa productivité. Lisez nos conseils !"
-categories: ["Productivite"]
-tags: ["delegation", "management", "productivite", "leadership", "lacher-prise"]
-slug: "delegation-intelligente-lacher-prise-management-productivite"
+categories: ["Productivité"]
+tags: ["delegation", "management", "productivité", "leadership", "lacher-prise"]
+slug: "delegation-intelligente-lacher-prise-management-productivité"
 draft: false
 ---
 
@@ -14,7 +14,7 @@ Il est 20h45. Dans l'immense open-space désert de l'usine, seule la lampe de bu
 
 Le silence est lourd, seulement rompu par le cliquetis frénétique de sa souris. Adrien est en train de reprendre, pour la troisième fois, le tableau de bord de Lucas, son adjoint. 
 
-*« Trop de risques, »* marmonne-t-il, les yeux rougis par l'écran. *« Si je ne vérifie pas chaque ligne, on va rater le créneau de livraison pour le client allemand. Lucas est bon, mais il n'a pas l'œil pour les détails critiques... pas comme moi. »*
+*« Trop de risques, »* marmonne-t-il, les yeux rougis par l'écran. *« Si je ne vérifie pas chaque ligne, on va ratér le créneau de livraison pour le client allemand. Lucas est bon, mais il n'a pas l'œil pour les détails critiques... pas comme moi. »*
 
 Son téléphone vibre sur le bureau. Un message de sa femme, Julie : *« Le dîner est froid, Adrien. Les enfants dorment déjà. C’est la troisième fois cette semaine. »* Un pincement au cœur le traverse, mais il le balaie d'un geste mental. Il se sent investi d'une mission sacrée : celle de porter l'usine sur ses seules épaules. Pour lui, déléguer n'est pas un gain de temps, c'est une perte de contrôle. Chaque fois qu'il confie une tâche, une angoisse sourde le tenaille. Il imagine l'erreur, l'oubli, la catastrophe.
 
@@ -36,9 +36,9 @@ Voici les signes que tu es prisonnier de ce piège :
 2. **Le syndrome du sauveur nocturne :** Tu travailles tard car c'est le seul moment où tu peux "enfin faire les choses correctement".
 3. **Le désengagement de l'équipe :** Tes collaborateurs te posent des questions basiques pour lesquelles ils ont pourtant les compétences, car ils savent que tu décideras à leur place de toute façon.
 
-Si tu ne traites pas ce problème, la conséquence à long terme est double : le **burn-out** pour toi et la **fuite des talents** pour ton équipe. Les meilleurs partiront là où on les laisse respirer, et tu resteras seul avec ceux qui n'ont plus d'ambition.
+Si tu ne traites pas ce problème, la conséquence à long terme est double : le **burn-out** pour toi et la **fuite des talents** pour ton équipe. Les meilleurs partiront là ou on les laisse respirer, et tu resteras seul avec ceux qui n'ont plus d'ambition.
 
-## 3 solutions pour transformer ta productivite
+## 3 solutions pour transformer ta productivité
 
 ### 1. La Règle des 70% : Le Quick Win pour briser l'exigence de perfection
 
@@ -62,13 +62,13 @@ La confiance ne se donne pas comme un interrupteur (On/Off), elle se construit c
 
 **Application pour Adrien :** Avec Sarah, il aurait pu dire : « Pour le plan de charge, nous passons au Niveau 3. Tu décides de la répartition, tu m'envoies un mail pour m'informer, et si je ne réagis pas sous 2h, tu lances la production. »
 
-**Résultat attendu :** Sous 4 semaines, la charge mentale diminue drastiquement. L'équipe sait exactement où s'arrête son autonomie, ce qui réduit le stress des deux côtés.
+**Résultat attendu :** Sous 4 semaines, la charge mentale diminue drastiquement. L'équipe sait exactement ou s'arrête son autonomie, ce qui réduit le stress des deux côtés.
 
 ### 3. Le Switch Identitaire : Passer de l'Expert au Jardinier
 
-C'est le changement de mentalité le plus profond. Ton identité ne doit plus être liée à ta capacité à "produire", mais à ta capacité à "faire produire". Un directeur de production performant n'est pas celui qui sait utiliser toutes les machines, c'est celui qui crée l'environnement où les opérateurs excellent. C'est la métaphore du jardinier : il ne fait pas pousser les fleurs, il prépare le sol et apporte l'eau.
+C'est le changement de mentalité le plus profond. Ton identité ne doit plus être liée à ta capacité à "produire", mais à ta capacité à "faire produire". Un directeur de production performant n'est pas celui qui sait utiliser toutes les machines, c'est celui qui crée l'environnement ou les opérateurs excellent. C'est la métaphore du jardinier : il ne fait pas pousser les fleurs, il prépare le sol et apporte l'eau.
 
-**L'exercice pratique :** Chaque matin, avant d'ouvrir tes mails, pose-toi cette question : « Quelle action puis-je faire aujourd'hui pour rendre l'un de mes collaborateurs plus autonome ? » Ton succès du jour se mesure au nombre de fois où l'on n'a **pas** eu besoin de toi.
+**L'exercice pratique :** Chaque matin, avant d'ouvrir tes mails, pose-toi cette question : « Quelle action puis-je faire aujourd'hui pour rendre l'un de mes collaborateurs plus autonome ? » Ton succès du jour se mesure au nombre de fois ou l'on n'a **pas** eu besoin de toi.
 
 **Application pour Adrien :** Adrien doit accepter que son utilité ne réside plus dans l'exactitude d'un tableur Excel, mais dans la vision stratégique de l'usine. S'il n'est pas "indispensable" sur l'opérationnel, c'est qu'il a réussi sa mission de manager.
 
