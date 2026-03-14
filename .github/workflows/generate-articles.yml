@@ -14,9 +14,10 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout main branch
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
 
       - name: Set up Python
@@ -39,4 +40,4 @@ jobs:
           git add content/ data/
           DATE=$(date +%Y-%m-%d)
           git diff --cached --quiet || git commit -m "Articles du $DATE : communication, productivite, memorisation"
-          git push
+          git push origin main
