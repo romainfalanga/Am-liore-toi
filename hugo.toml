@@ -3,7 +3,8 @@ languageCode = "fr"
 title = "Ameliore-toi | Communication, Productivite, Memorisation"
 defaultContentLanguage = "fr"
 enableRobotsTXT = true
-enableGitInfo = true
+enableGitInfo = false
+buildFuture = true
 
 [params]
   description = "Devenez une meilleure version de vous-meme grace a nos articles quotidiens sur la communication, la productivite et la memorisation."
