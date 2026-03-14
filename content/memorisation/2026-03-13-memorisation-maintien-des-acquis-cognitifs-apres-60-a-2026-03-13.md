@@ -1,6 +1,6 @@
 ---
 title: "Maintien Des Acquis Cognitifs Apres 60 Ans : transformez votre memorisation"
-date: 2026-03-13T08:00:00+01:00
+date: 2026-03-13T08:02:00+01:00
 description: "Decouvrez comment surmonter croyance limitante 'j'ai une mauvaise memoire'. 3 solutions concretes."
 categories: ["Memorisation"]
 tags: ["memorisation", "developpement-personnel", "amelioration"]

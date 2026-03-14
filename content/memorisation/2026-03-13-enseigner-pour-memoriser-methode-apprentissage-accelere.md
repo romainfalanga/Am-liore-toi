@@ -1,7 +1,7 @@
 ---
 title: "Enseigner pour mémoriser : la méthode pour apprendre vite"
-date: 2026-03-13T08:00:00+01:00
-lastmod: 2026-03-13T08:00:00+01:00
+date: 2026-03-13T08:01:00+01:00
+lastmod: 2026-03-13T08:01:00+01:00
 description: "Découvrez comment enseigner aux autres permet de fixer durablement vos connaissances. Maîtrisez un nouveau domaine professionnel rapidement avec nos stratégies."
 categories: ["Memorisation"]
 tags: ["enseigner pour memoriser", "memorisation active", "apprentissage accelere", "reconversion professionnelle", "technique de feynman", "fixation des connaissances", "strategie de memorisation"]

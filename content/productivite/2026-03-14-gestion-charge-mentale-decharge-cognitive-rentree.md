@@ -1,7 +1,7 @@
 ---
 title: "Charge mentale et décharge cognitive : gérez mieux votre rentrée"
-date: 2026-03-14T08:10:00+01:00
-lastmod: 2026-03-14T08:10:00+01:00
+date: 2026-03-14T08:00:00+01:00
+lastmod: 2026-03-14T08:00:00+01:00
 description: "Découvrez comment la décharge cognitive réduit l épuisement décisionnel. Appliquez nos stratégies de productivité pour une routine de rentrée sereine et efficace."
 categories: ["Productivite"]
 tags: ["charge-mentale", "decharge-cognitive", "productivite-personnelle", "routine-rentree-scolaire", "epuisement-decisionnel", "organisation-familiale", "gestion-du-stress"]

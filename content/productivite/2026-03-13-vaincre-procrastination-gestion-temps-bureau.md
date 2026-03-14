@@ -1,6 +1,6 @@
 ---
 title: "Vaincre la procrastination au bureau : gérez votre temps"
-date: 2026-03-13T08:00:00+01:00
+date: 2026-03-13T08:04:00+01:00
 description: "Journée surchargée ? Découvrez comment arrêter de procrastiner et reprendre le contrôle de votre gestion du temps dès aujourd'hui. Lisez nos conseils !"
 categories: ["Productivite"]
 tags: ["gestion du temps", "productivite", "procrastination", "travail", "efficacite"]

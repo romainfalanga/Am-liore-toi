@@ -1,6 +1,6 @@
 ---
 title: "Écoute active en réunion : évitez les malentendus fatals"
-date: 2026-03-13T08:00:00+01:00
+date: 2026-03-13T08:04:00+01:00
 description: "Découvrez comment l'écoute active peut sauver vos projets en réunion. Apprenez à désamorcer les conflits et à mieux comprendre vos collaborateurs dès maintenant."
 categories: ["Communication"]
 tags: ["ecoute active", "communication non verbale", "gestion de conflit", "reunion professionnelle", "soft skills"]

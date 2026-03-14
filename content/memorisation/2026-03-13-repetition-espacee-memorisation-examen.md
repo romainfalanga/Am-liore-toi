@@ -1,6 +1,6 @@
 ---
 title: "Répétition espacée : mémoriser pour réussir ses examens"
-date: 2026-03-13T08:00:00+01:00
+date: 2026-03-13T08:03:00+01:00
 description: "Marre d'oublier vos cours ? Découvrez comment la répétition espacée booste votre mémoire et garantit votre réussite aux examens. Apprenez la méthode ici !"
 categories: ["Memorisation"]
 tags: ["repetition espacee", "memorisation", "revision examen", "apprentissage", "methode de travail"]

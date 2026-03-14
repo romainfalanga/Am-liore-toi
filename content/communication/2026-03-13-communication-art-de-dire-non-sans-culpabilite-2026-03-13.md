@@ -1,6 +1,6 @@
 ---
 title: "Art De Dire Non Sans Culpabilite : transformez votre communication"
-date: 2026-03-13T08:00:00+01:00
+date: 2026-03-13T08:02:00+01:00
 description: "Decouvrez comment surmonter evitement des conversations difficiles jusqu'au point de rup. 3 solutions concretes."
 categories: ["Communication"]
 tags: ["communication", "developpement-personnel", "amelioration"]

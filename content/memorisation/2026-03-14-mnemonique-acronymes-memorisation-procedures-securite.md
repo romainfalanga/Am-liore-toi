@@ -1,7 +1,7 @@
 ---
 title: "Mnémonique par acronymes : mémoriser 50 procédures de sécurité"
-date: 2026-03-14T08:20:00+01:00
-lastmod: 2026-03-14T08:20:00+01:00
+date: 2026-03-14T08:02:00+01:00
+lastmod: 2026-03-14T08:02:00+01:00
 description: "Découvrez comment utiliser les acronymes et phrases clés pour mémoriser vos procédures de sécurité au travail sans saturation. Boostez votre mémoire technique."
 categories: ["Memorisation"]
 tags: ["mnemotechnique-acronymes", "memorisation-procedures-securite", "methode-phrases-cles", "technique-memorisation-travail", "apprendre-protocoles-securite", "strategie-memorisation-rapide", "efficacite-maintenance-industrielle"]
