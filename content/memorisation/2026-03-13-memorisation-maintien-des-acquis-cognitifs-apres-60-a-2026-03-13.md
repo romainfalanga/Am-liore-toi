@@ -1,20 +1,20 @@
 ---
-title: "Maintien Des Acquis Cognitifs Apres 60 Ans : transformez votre memorisation"
+title: "Maintien Des Acquis Cognitifs Apres 60 Ans : transformez votre mémorisation"
 date: 2026-03-13T08:02:00+01:00
-description: "Decouvrez comment surmonter croyance limitante 'j'ai une mauvaise memoire'. 3 solutions concretes."
-categories: ["Memorisation"]
-tags: ["memorisation", "developpement-personnel", "amelioration"]
-slug: "memorisation-maintien-des-acquis-cognitifs-apres-60-a-2026-03-13"
+description: "Decouvrez comment surmonter croyance limitante 'j'ai une mauvaise mémoire'. 3 solutions concretes."
+categories: ["Mémorisation"]
+tags: ["mémorisation", "developpement-personnel", "amelioration"]
+slug: "mémorisation-maintien-des-acquis-cognitifs-apres-60-a-2026-03-13"
 draft: false
 ---
 
 ## L'histoire de Simone
 
-L'odeur de la craie et du papier vieilli, Simone l'avait dans la peau. Pendant trente-huit ans, elle avait régné sur sa salle de classe avec une bienveillance ferme, capable de citer par cœur les poésies de Prévert ou les dates de la Révolution. Mais aujourd'hui, dans le silence feutré de son petit salon lyonnais, Simone fait face à un ennemi invisible. Elle fixe un dossier bleu posé sur sa table en merisier. C’est le compte-rendu de la dernière réunion de l’association d’aide aux devoirs où elle est bénévole.
+L'odeur de la craie et du papier vieilli, Simone l'avait dans la peau. Pendant trente-huit ans, elle avait régné sur sa salle de classe avec une bienveillance ferme, capable de citer par cœur les poésies de Prévert ou les dates de la Révolution. Mais aujourd'hui, dans le silence feutré de son petit salon lyonnais, Simone fait face à un ennemi invisible. Elle fixe un dossier bleu posé sur sa table en merisier. C’est le compte-rendu de la dernière réunion de l’association d’aide aux devoirs ou elle est bénévole.
 
 — "C’est ridicule..." murmure-t-elle, les doigts serrés sur l’anse de sa tasse de thé Earl Grey.
 
-La veille, lors de la réunion, l’impensable s’était produit. Marc, le jeune président de l'association, lui avait demandé de récapituler les besoins en fournitures pour le trimestre. Simone a ouvert la bouche, et rien. Le vide. Un gouffre blanc là où auraient dû se trouver les chiffres des cahiers et des stylos. Elle a bafouillé, cherché ses lunettes qui étaient sur son nez, et a fini par lâcher, le rouge aux joues : "Excusez-moi, j’ai une mémoire de passoire, c’est l’âge qui veut ça."
+La veille, lors de la réunion, l’impensable s’était produit. Marc, le jeune président de l'association, lui avait demandé de récapituler les besoins en fournitures pour le trimestre. Simone a ouvert la bouche, et rien. Le vide. Un gouffre blanc là ou auraient dû se trouver les chiffres des cahiers et des stylos. Elle a bafouillé, cherché ses lunettes qui étaient sur son nez, et a fini par lâcher, le rouge aux joues : "Excusez-moi, j’ai une mémoire de passoire, c’est l’âge qui veut ça."
 
 En rentrant chez elle, la sentence tournait en boucle dans son esprit. *C’est le début de la fin. Mon cerveau est un moteur qui s’encrasse.* Elle se sent physically diminuée, comme si une brume s'était installée derrière ses yeux. Elle évite désormais de prendre la parole au club de lecture, de peur d'oublier le nom du personnage principal. Elle qui adorait apprendre, elle s'isole. Elle a même refusé d'apprendre à utiliser la nouvelle tablette que ses petits-enfants lui ont offerte pour Noël. "À quoi bon ? Je ne retiendrai rien."
 
@@ -24,7 +24,7 @@ Elle réalise soudain la violence du mensonge qu'elle se raconte. Elle s'est dia
 
 ## Le diagnostic : comprendre la croyance limitante "j'ai une mauvaise mémoire"
 
-Ce que vit Simone porte un nom scientifique précis en psychologie cognitive : **l'auto-stéréotypie liée à l'âge**. C'est un phénomène où une personne intègre les clichés négatifs de la société sur le vieillissement (la "perte de mémoire inéluctable") et finit par s'y conformer. À 72 ans, après une vie de sollicitations intellectuelles intenses, le passage à la retraite peut créer un "vide de stimulation" que le cerveau interprète comme une invitation au repos éternel.
+Ce que vit Simone porte un nom scientifique précis en psychologie cognitive : **l'auto-stéréotypie liée à l'âge**. C'est un phénomène ou une personne intègre les clichés négatifs de la société sur le vieillissement (la "perte de mémoire inéluctable") et finit par s'y conformer. À 72 ans, après une vie de sollicitations intellectuelles intenses, le passage à la retraite peut créer un "vide de stimulation" que le cerveau interprète comme une invitation au repos éternel.
 
 Pourquoi est-ce si fréquent à cet âge ? Parce que nous vivons dans une culture qui glorifie la rapidité de la jeunesse au détriment de la synthèse de l'expérience. On confond la *vitesse de traitement* (qui ralentit effectivement un peu) avec la *capacité de stockage et d'association* (qui peut rester exceptionnelle).
 
@@ -74,7 +74,7 @@ Sur le long terme, si on ne traite pas cette croyance, le cerveau subit une vér
 
 ## Ce que Simone a fait ensuite
 
-Trois semaines plus tard, Simone est retournée à l'association. Dans son sac, pas de feuilles volantes gribouillées, juste un petit carnet pour le plaisir. Quand son tour est venu de parler, elle a fermé les yeux une demi-seconde, visualisant sa cuisine où elle avait "déposé" les chiffres clés de son rapport.
+Trois semaines plus tard, Simone est retournée à l'association. Dans son sac, pas de feuilles volantes gribouillées, juste un petit carnet pour le plaisir. Quand son tour est venu de parler, elle a fermé les yeux une demi-seconde, visualisant sa cuisine ou elle avait "déposé" les chiffres clés de son rapport.
 
 Elle a parlé pendant dix minutes, avec une fluidité qu'elle pensait avoir perdue à jamais. Sa voix était claire, son regard assuré. À la fin, Marc l'a regardée avec admiration : "Simone, votre mémoire est incroyable, vous n'avez même pas regardé vos notes !"
 

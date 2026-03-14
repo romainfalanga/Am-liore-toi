@@ -1,3 +1,3 @@
 ---
-title: "Ameliore-toi"
+title: "Améliore-toi"
 ---
