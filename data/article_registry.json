@@ -251,6 +251,42 @@
       "contexte": "memorisation d'un texte de theatre de 15 pages",
       "problematique": "anxiete de performance qui bloque la recuperation",
       "slug": "palais-memoire-methode-loci-texte-theatre"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "communication",
+      "titre": "Art de la conversation : maîtriser le small talk sans peur",
+      "prenom": "Jules",
+      "age": 22,
+      "tranche_age": "18-24 ans (etudiant/jeune actif)",
+      "aspect": "art de la conversation et small talk",
+      "contexte": "premiere rencontre avec de parfaits inconnus",
+      "problematique": "peur du silence qui pousse a combler chaque pause",
+      "slug": "art-conversation-small-talk-gerer-silence"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "productivite",
+      "titre": "Priorisation par l'impact réel : gérez vos projets complexes",
+      "prenom": "Juliette",
+      "age": 39,
+      "tranche_age": "35-44 ans (professionnel confirme)",
+      "aspect": "art de la priorisation par l'impact reel",
+      "contexte": "gestion d'un projet complexe multi-equipes",
+      "problematique": "confusion entre etre occupe et etre productif",
+      "slug": "priorisation-impact-reel-gestion-projet-complexe"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "memorisation",
+      "titre": "Méthode SQ3R : mémoriser et réussir ses concours administratifs",
+      "prenom": "Marc",
+      "age": 48,
+      "tranche_age": "45-54 ans (professionnel senior)",
+      "aspect": "methode SQ3R pour la lecture et retention de textes",
+      "contexte": "preparation d'un concours administratif tres selectif",
+      "problematique": "relecture repetitive sans aucune retention reelle",
+      "slug": "methode-sq3r-memorisation-lecture-concours-administratif"
     }
   ],
   "prenoms_utilises": [
@@ -274,7 +310,10 @@
     "Bastien",
     "Julien",
     "Ines",
-    "Antoine"
+    "Antoine",
+    "Jules",
+    "Juliette",
+    "Marc"
   ],
   "combinaisons_utilisees": [
     {
@@ -444,6 +483,30 @@
       "problematique": "anxiete de performance qui bloque la recuperation",
       "prenom": "Antoine",
       "age": "55-64 ans (fin de carriere)"
+    },
+    {
+      "categorie": "communication",
+      "aspect": "art de la conversation et small talk",
+      "contexte": "premiere rencontre avec de parfaits inconnus",
+      "problematique": "peur du silence qui pousse a combler chaque pause",
+      "prenom": "Jules",
+      "age": "18-24 ans (etudiant/jeune actif)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "art de la priorisation par l'impact reel",
+      "contexte": "gestion d'un projet complexe multi-equipes",
+      "problematique": "confusion entre etre occupe et etre productif",
+      "prenom": "Juliette",
+      "age": "35-44 ans (professionnel confirme)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "methode SQ3R pour la lecture et retention de textes",
+      "contexte": "preparation d'un concours administratif tres selectif",
+      "problematique": "relecture repetitive sans aucune retention reelle",
+      "prenom": "Marc",
+      "age": "45-54 ans (professionnel senior)"
     }
   ]
 }
