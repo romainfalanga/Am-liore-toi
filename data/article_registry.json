@@ -107,6 +107,42 @@
       "contexte": "retention d'un cours magistral de 3 heures en amphi",
       "problematique": "oubli systematique dans les 24h suivant l'apprentissage",
       "slug": "storytelling-memorisation-cours-magistraux-etudiants"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "communication",
+      "titre": "Communication intergénérationnelle : parler à un parent âgé",
+      "prenom": "Thomas",
+      "age": 48,
+      "tranche_age": "45-54 ans (professionnel senior)",
+      "aspect": "communication intergenerationnelle",
+      "contexte": "conversation delicate avec un parent vieillissant",
+      "problematique": "difficulte a exprimer ses emotions authentiques",
+      "slug": "communication-intergenerationnelle-parent-age-emotions"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "productivite",
+      "titre": "Routine matinale : comment booster sa productivité d'entrepreneur",
+      "prenom": "Emma",
+      "age": 29,
+      "tranche_age": "25-34 ans (jeune professionnel)",
+      "aspect": "construction de routines matinales puissantes",
+      "contexte": "premiers mois de lancement de sa propre entreprise",
+      "problematique": "absence totale de routine et vie chaotique au quotidien",
+      "slug": "routine-matinale-productivite-entrepreneur-debutant"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "memorisation",
+      "titre": "Chunking et structuration : mémoriser la terminologie médicale",
+      "prenom": "Hugo",
+      "age": 21,
+      "tranche_age": "18-24 ans (etudiant/jeune actif)",
+      "aspect": "chunking et structuration de l'information en blocs",
+      "contexte": "apprentissage de la terminologie medicale en stage",
+      "problematique": "surcharge cognitive qui empeche toute nouvelle absorption",
+      "slug": "chunking-structuration-memorisation-terminologie-medicale"
     }
   ],
   "prenoms_utilises": [
@@ -118,7 +154,10 @@
     "Sophie",
     "Gabriel",
     "Isabelle",
-    "Arthur"
+    "Arthur",
+    "Thomas",
+    "Emma",
+    "Hugo"
   ],
   "combinaisons_utilisees": [
     {
@@ -191,6 +230,30 @@
       "contexte": "retention d'un cours magistral de 3 heures en amphi",
       "problematique": "oubli systematique dans les 24h suivant l'apprentissage",
       "prenom": "Arthur",
+      "age": "18-24 ans (etudiant/jeune actif)"
+    },
+    {
+      "categorie": "communication",
+      "aspect": "communication intergenerationnelle",
+      "contexte": "conversation delicate avec un parent vieillissant",
+      "problematique": "difficulte a exprimer ses emotions authentiques",
+      "prenom": "Thomas",
+      "age": "45-54 ans (professionnel senior)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "construction de routines matinales puissantes",
+      "contexte": "premiers mois de lancement de sa propre entreprise",
+      "problematique": "absence totale de routine et vie chaotique au quotidien",
+      "prenom": "Emma",
+      "age": "25-34 ans (jeune professionnel)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "chunking et structuration de l'information en blocs",
+      "contexte": "apprentissage de la terminologie medicale en stage",
+      "problematique": "surcharge cognitive qui empeche toute nouvelle absorption",
+      "prenom": "Hugo",
       "age": "18-24 ans (etudiant/jeune actif)"
     }
   ]
