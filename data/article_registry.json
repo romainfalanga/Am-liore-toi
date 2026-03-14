@@ -179,6 +179,42 @@
       "contexte": "memorisation de 50 procedures de securite au travail",
       "problematique": "saturation informationnelle et paralysie par le volume",
       "slug": "mnemonique-acronymes-memorisation-procedures-securite"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "communication",
+      "titre": "Communication non-violente : stopper les disputes de couple",
+      "prenom": "Raphael",
+      "age": 29,
+      "tranche_age": "25-34 ans (jeune professionnel)",
+      "aspect": "communication non-violente (CNV)",
+      "contexte": "discussion tendue avec son partenaire amoureux",
+      "problematique": "tendance a generaliser et exagerer en cas de desaccord",
+      "slug": "communication-non-violente-couple-dispute-solutions"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "productivite",
+      "titre": "Charge mentale et décharge cognitive : gérez mieux votre rentrée",
+      "prenom": "Chloe",
+      "age": 38,
+      "tranche_age": "35-44 ans (professionnel confirme)",
+      "aspect": "gestion de la charge mentale et decharge cognitive",
+      "contexte": "rentree scolaire avec mise en place de la nouvelle routine",
+      "problematique": "epuisement decisionnel en fin de journee",
+      "slug": "gestion-charge-mentale-decharge-cognitive-rentree"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "memorisation",
+      "titre": "Images mentales absurdes : mémorisez 20 prénoms sans effort",
+      "prenom": "Bastien",
+      "age": 22,
+      "tranche_age": "18-24 ans (etudiant/jeune actif)",
+      "aspect": "association d'images mentales vivantes et absurdes",
+      "contexte": "soiree networking ou il faut retenir 20 prenoms",
+      "problematique": "oubli systematique dans les 24h suivant l'apprentissage",
+      "slug": "memoriser-prenoms-images-mentales-absurdes-networking"
     }
   ],
   "prenoms_utilises": [
@@ -196,7 +232,10 @@
     "Hugo",
     "Nathan",
     "Alice",
-    "Louis"
+    "Louis",
+    "Raphael",
+    "Chloe",
+    "Bastien"
   ],
   "combinaisons_utilisees": [
     {
@@ -317,6 +356,30 @@
       "contexte": "memorisation de 50 procedures de securite au travail",
       "problematique": "saturation informationnelle et paralysie par le volume",
       "prenom": "Louis",
+      "age": "18-24 ans (etudiant/jeune actif)"
+    },
+    {
+      "categorie": "communication",
+      "aspect": "communication non-violente (CNV)",
+      "contexte": "discussion tendue avec son partenaire amoureux",
+      "problematique": "tendance a generaliser et exagerer en cas de desaccord",
+      "prenom": "Raphael",
+      "age": "25-34 ans (jeune professionnel)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "gestion de la charge mentale et decharge cognitive",
+      "contexte": "rentree scolaire avec mise en place de la nouvelle routine",
+      "problematique": "epuisement decisionnel en fin de journee",
+      "prenom": "Chloe",
+      "age": "35-44 ans (professionnel confirme)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "association d'images mentales vivantes et absurdes",
+      "contexte": "soiree networking ou il faut retenir 20 prenoms",
+      "problematique": "oubli systematique dans les 24h suivant l'apprentissage",
+      "prenom": "Bastien",
       "age": "18-24 ans (etudiant/jeune actif)"
     }
   ]
