@@ -533,7 +533,7 @@ REGLES POUR LA FAQ :
 # PHASE 4 : CREATION DU FICHIER ET MISE A JOUR DU REGISTRE
 # ============================================================
 
-def create_hugo_article(combo, seo, article_content, today):
+def create_hugo_article(combo, seo, article_content, today, article_index=0):
     """Cree le fichier Markdown Hugo avec front matter SEO enrichi."""
     cat = combo["categorie"]
 
@@ -553,6 +553,11 @@ def create_hugo_article(combo, seo, article_content, today):
     word_count = len(article_content.split())
     read_time = max(1, round(word_count / 200))
 
+    # Heure unique par article pour garantir un tri correct
+    # Article 0 = 08:00, Article 1 = 08:10, Article 2 = 08:20
+    article_hour = 8
+    article_minute = article_index * 10
+
     # Generer la section FAQ en front matter pour le schema JSON-LD
     faq_items = seo.get("faq", [])
     faq_yaml = ""
@@ -566,8 +571,8 @@ def create_hugo_article(combo, seo, article_content, today):
 
     front_matter = f"""---
 title: "{title_safe}"
-date: {today}T08:00:00+01:00
-lastmod: {today}T08:00:00+01:00
+date: {today}T{article_hour:02d}:{article_minute:02d}:00+01:00
+lastmod: {today}T{article_hour:02d}:{article_minute:02d}:00+01:00
 description: "{desc_safe}"
 categories: ["{cat.title()}"]
 tags: [{tags_str}]
@@ -660,7 +665,7 @@ def main():
     success_count = 0
     failed_categories = []
 
-    for combo in combinations:
+    for idx, combo in enumerate(combinations):
         cat = combo["categorie"]
         print(f"\n--- {cat.upper()} ---")
 
@@ -674,7 +679,7 @@ def main():
             print(f"  Titre: {seo.get('title', 'N/A')}")
 
             # Creer le fichier
-            create_hugo_article(combo, seo, article_content, today)
+            create_hugo_article(combo, seo, article_content, today, article_index=idx)
 
             # Mettre a jour le registre
             update_registry(registry, combo, seo, today)
