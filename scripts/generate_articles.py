@@ -297,7 +297,7 @@ def generate_article(combo):
     """Genere un article profond, riche et a forte valeur ajoutee."""
 
     cat = combo["categorie"]
-    cat_labels = {"communication": "Communication", "productivite": "Productivite", "memorisation": "Memorisation"}
+    cat_labels = {"communication": "Communication", "productivite": "Productivité", "memorisation": "Mémorisation"}
     cat_label = cat_labels[cat]
 
     prenom = combo['prenom']
@@ -496,10 +496,10 @@ REGLES POUR LA FAQ :
     aspect_slug = re.sub(r'[^a-z0-9-]', '', combo['aspect'][:40].lower().replace(' ', '-').replace(chr(39), ''))
     fallback = {
         "title": f"{combo['aspect'].title()} : transformez votre {combo['categorie']}",
-        "description": f"Decouvrez comment surmonter {combo['problematique'][:60]}. Methode complete avec 3 strategies concretes et un plan d'action.",
+        "description": f"Découvrez comment surmonter {combo['problematique'][:60]}. Méthode complète avec 3 stratégies concrètes et un plan d'action.",
         "slug": f"{combo['categorie']}-{aspect_slug}-{today}",
         "tags": [combo['categorie'], "developpement-personnel", "amelioration", combo['aspect'].lower().replace(' ', '-')[:30]],
-        "keywords": [combo['aspect'].lower(), combo['categorie'], "developpement personnel"],
+        "keywords": [combo['aspect'].lower(), combo['categorie'], "développement personnel"],
         "faq": []
     }
 

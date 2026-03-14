@@ -19,7 +19,7 @@
       {{ end }}
     </header>
 
-    <!-- Table des matieres -->
+    <!-- Table des matières -->
     {{ if .TableOfContents }}
     <aside class="toc">
       <div class="toc-header">
@@ -39,7 +39,7 @@
     <!-- FAQ Section -->
     {{ with .Params.faq }}{{ if gt (len .) 0 }}
     <section class="article-faq">
-      <h2>Questions frequentes</h2>
+      <h2>Questions fréquentes</h2>
       {{ range . }}
       <details class="faq-item">
         <summary>{{ .question }}</summary>
@@ -53,7 +53,7 @@
     {{ $related := .Site.RegularPages.Related . | first 3 }}
     {{ with $related }}
     <section class="related-articles">
-      <h2>Articles qui pourraient aussi t'interesser</h2>
+      <h2>Articles qui pourraient aussi t'intéresser</h2>
       <div class="related-grid">
         {{ range . }}
         {{ $relCat := "" }}{{ with .Params.categories }}{{ $relCat = index . 0 | urlize }}{{ end }}

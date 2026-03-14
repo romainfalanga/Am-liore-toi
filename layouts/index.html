@@ -1,26 +1,26 @@
 {{ define "main" }}
 <section class="hero">
   <div class="container">
-    <h1>Devenez la <span class="text-gradient">meilleure version</span> de vous-meme</h1>
-    <p class="hero-subtitle">Chaque jour, 3 nouveaux articles pour maitriser l'art de la communication, decupler votre productivite et developper une memoire exceptionnelle.</p>
+    <h1>Devenez la <span class="text-gradient">meilleure version</span> de vous-même</h1>
+    <p class="hero-subtitle">Chaque jour, 3 nouveaux articles pour maîtriser l'art de la communication, décupler votre productivité et développer une mémoire exceptionnelle.</p>
     <div class="hero-pillars">
       <a href="/communication/" class="pillar-card pillar-comm">
         <h2>Communication</h2>
-        <p>Maitrisez l'art de vous exprimer et de creer des connexions authentiques</p>
+        <p>Maîtrisez l'art de vous exprimer et de créer des connexions authentiques</p>
       </a>
       <a href="/productivite/" class="pillar-card pillar-prod">
-        <h2>Productivite</h2>
+        <h2>Productivité</h2>
         <p>Optimisez chaque heure et accomplissez l'extraordinaire au quotidien</p>
       </a>
       <a href="/memorisation/" class="pillar-card pillar-memo">
-        <h2>Memorisation</h2>
-        <p>Developpez une memoire remarquable qui vous donne un avantage decisif</p>
+        <h2>Mémorisation</h2>
+        <p>Développez une mémoire remarquable qui vous donne un avantage décisif</p>
       </a>
     </div>
   </div>
 </section>
 
-{{ $sections := dict "communication" "Communication" "productivite" "Productivite" "memorisation" "Memorisation" }}
+{{ $sections := dict "communication" "Communication" "productivite" "Productivité" "memorisation" "Mémorisation" }}
 {{ $order := slice "communication" "productivite" "memorisation" }}
 
 {{ range $order }}
