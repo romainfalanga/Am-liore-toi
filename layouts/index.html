@@ -27,7 +27,7 @@
 {{ $sectionKey := . }}
 {{ $sectionName := index $sections $sectionKey }}
 {{ $sectionPages := where $.Site.RegularPages "Section" $sectionKey }}
-{{ $latestPages := first 3 (sort $sectionPages "Date" "desc") }}
+{{ $latestPages := first 3 $sectionPages.ByDate.Reverse }}
 {{ if gt (len $latestPages) 0 }}
 <section class="home-section home-section-{{ $sectionKey }}">
   <div class="container">
