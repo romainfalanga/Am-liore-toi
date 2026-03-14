@@ -215,6 +215,42 @@
       "contexte": "soiree networking ou il faut retenir 20 prenoms",
       "problematique": "oubli systematique dans les 24h suivant l'apprentissage",
       "slug": "memoriser-prenoms-images-mentales-absurdes-networking"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "communication",
+      "titre": "Feedback constructif : comment recadrer sans craindre le conflit",
+      "prenom": "Julien",
+      "age": 38,
+      "tranche_age": "35-44 ans (professionnel confirme)",
+      "aspect": "art du feedback constructif",
+      "contexte": "recadrage d'un collaborateur sous-performant",
+      "problematique": "tendance a eviter tout conflit meme necessaire",
+      "slug": "art-feedback-constructif-recadrer-collaborateur-sous-performant"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "productivite",
+      "titre": "Optimisation du sommeil et performance : guide du travail de nuit",
+      "prenom": "Ines",
+      "age": 29,
+      "tranche_age": "25-34 ans (jeune professionnel)",
+      "aspect": "optimisation du sommeil pour la performance",
+      "contexte": "travail de nuit et decalage du rythme circadien",
+      "problematique": "alternance entre hyperproductivite et effondrement total",
+      "slug": "optimisation-sommeil-performance-travail-nuit"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "memorisation",
+      "titre": "Palais de la mémoire : mémoriser un texte de théâtre sans stress",
+      "prenom": "Antoine",
+      "age": 58,
+      "tranche_age": "55-64 ans (fin de carriere)",
+      "aspect": "technique du palais de la memoire (methode des loci)",
+      "contexte": "memorisation d'un texte de theatre de 15 pages",
+      "problematique": "anxiete de performance qui bloque la recuperation",
+      "slug": "palais-memoire-methode-loci-texte-theatre"
     }
   ],
   "prenoms_utilises": [
@@ -235,7 +271,10 @@
     "Louis",
     "Raphael",
     "Chloe",
-    "Bastien"
+    "Bastien",
+    "Julien",
+    "Ines",
+    "Antoine"
   ],
   "combinaisons_utilisees": [
     {
@@ -381,6 +420,30 @@
       "problematique": "oubli systematique dans les 24h suivant l'apprentissage",
       "prenom": "Bastien",
       "age": "18-24 ans (etudiant/jeune actif)"
+    },
+    {
+      "categorie": "communication",
+      "aspect": "art du feedback constructif",
+      "contexte": "recadrage d'un collaborateur sous-performant",
+      "problematique": "tendance a eviter tout conflit meme necessaire",
+      "prenom": "Julien",
+      "age": "35-44 ans (professionnel confirme)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "optimisation du sommeil pour la performance",
+      "contexte": "travail de nuit et decalage du rythme circadien",
+      "problematique": "alternance entre hyperproductivite et effondrement total",
+      "prenom": "Ines",
+      "age": "25-34 ans (jeune professionnel)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "technique du palais de la memoire (methode des loci)",
+      "contexte": "memorisation d'un texte de theatre de 15 pages",
+      "problematique": "anxiete de performance qui bloque la recuperation",
+      "prenom": "Antoine",
+      "age": "55-64 ans (fin de carriere)"
     }
   ]
 }
