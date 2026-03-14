@@ -1,7 +1,7 @@
 ---
 title: "Communication bienveillante : apaiser les tensions avec un ado"
-date: 2026-03-13T08:00:00+01:00
-lastmod: 2026-03-13T08:00:00+01:00
+date: 2026-03-13T08:03:00+01:00
+lastmod: 2026-03-13T08:03:00+01:00
 description: "Découvrez comment gérer la surcharge émotionnelle et rétablir le dialogue avec un adolescent rebelle grâce à des techniques de communication bienveillante."
 categories: ["Communication"]
 tags: ["communication bienveillante", "adolescent rebelle", "gestion emotions", "ecoute active", "relation parent enfant", "education positive", "conflit familial"]

@@ -1,7 +1,7 @@
 ---
 title: "Communication intergénérationnelle : parler à un parent âgé"
-date: 2026-03-14T08:00:00+01:00
-lastmod: 2026-03-14T08:00:00+01:00
+date: 2026-03-14T08:01:00+01:00
+lastmod: 2026-03-14T08:01:00+01:00
 description: "Découvrez comment réussir une conversation délicate avec un parent vieillissant grâce à l'écoute active et l'ancrage sensoriel pour exprimer vos émotions."
 categories: ["Communication"]
 tags: ["communication intergenerationnelle", "parent vieillissant", "exprimer ses emotions", "ecoute active", "relation parent enfant", "conversation delicate", "bienveillance"]

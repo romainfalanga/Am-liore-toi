@@ -1,7 +1,7 @@
 ---
 title: "Chunking et structuration : mémoriser la terminologie médicale"
-date: 2026-03-14T08:20:00+01:00
-lastmod: 2026-03-14T08:20:00+01:00
+date: 2026-03-14T08:00:00+01:00
+lastmod: 2026-03-14T08:00:00+01:00
 description: "Découvrez comment le chunking et la structuration en blocs permettent de mémoriser la terminologie médicale complexe sans surcharge cognitive en stage."
 categories: ["Memorisation"]
 tags: ["chunking", "memorisation medicale", "structuration information", "etudiant medecine", "terminologie medicale", "surcharge cognitive", "apprentissage blocs"]

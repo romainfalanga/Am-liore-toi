@@ -1,7 +1,7 @@
 ---
 title: "Gestion de l'énergie : optimiser sa productivité après burnout"
-date: 2026-03-13T08:00:00+01:00
-lastmod: 2026-03-13T08:00:00+01:00
+date: 2026-03-13T08:02:00+01:00
+lastmod: 2026-03-13T08:02:00+01:00
 description: "Découvrez comment la gestion de l'énergie surpasse la gestion du temps pour une reprise durable après un burnout. Adoptez nos stratégies de charge cognitive."
 categories: ["Productivite"]
 tags: ["gestion de l energie", "productivite durable", "reprise apres burnout", "charge cognitive", "rythme biologique", "efficacite professionnelle", "bien-etre au travail"]

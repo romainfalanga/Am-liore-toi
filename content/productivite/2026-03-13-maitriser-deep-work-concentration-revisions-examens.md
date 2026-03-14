@@ -1,7 +1,7 @@
 ---
 title: "Deep Work et concentration : la méthode pour réussir ses examens"
-date: 2026-03-13T08:00:00+01:00
-lastmod: 2026-03-13T08:00:00+01:00
+date: 2026-03-13T08:03:00+01:00
+lastmod: 2026-03-13T08:03:00+01:00
 description: "Découvrez comment maîtriser le deep work et la concentration intense pour réussir vos révisions. Libérez vous de l addiction aux notifications dès maintenant."
 categories: ["Productivite"]
 tags: ["deep work", "concentration intense", "revisions examens", "productivite etudiante", "focus", "addiction smartphone", "methode de travail"]

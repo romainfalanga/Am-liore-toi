@@ -1,7 +1,7 @@
 ---
 title: "Routine matinale : comment booster sa productivité d'entrepreneur"
-date: 2026-03-14T08:10:00+01:00
-lastmod: 2026-03-14T08:10:00+01:00
+date: 2026-03-14T08:01:00+01:00
+lastmod: 2026-03-14T08:01:00+01:00
 description: "Découvrez comment construire une routine matinale puissante pour sortir du chaos et réussir le lancement de votre entreprise avec sérénité et efficacité."
 categories: ["Productivite"]
 tags: ["routine matinale", "productivite entrepreneur", "gestion du temps", "lancement entreprise", "organisation travail", "bien etre au travail", "routine matinale puissante"]

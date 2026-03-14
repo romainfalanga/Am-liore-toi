@@ -533,6 +533,18 @@ REGLES POUR LA FAQ :
 # PHASE 4 : CREATION DU FICHIER ET MISE A JOUR DU REGISTRE
 # ============================================================
 
+def count_existing_articles_today(cat, today):
+    """Compte les articles deja generes aujourd'hui pour cette categorie."""
+    cat_dir = CONTENT_DIR / cat
+    if not cat_dir.exists():
+        return 0
+    count = 0
+    for md_file in cat_dir.glob(f"{today}-*.md"):
+        if md_file.name != "_index.md":
+            count += 1
+    return count
+
+
 def create_hugo_article(combo, seo, article_content, today, article_index=0):
     """Cree le fichier Markdown Hugo avec front matter SEO enrichi."""
     cat = combo["categorie"]
@@ -554,9 +566,11 @@ def create_hugo_article(combo, seo, article_content, today, article_index=0):
     read_time = max(1, round(word_count / 200))
 
     # Heure unique par article pour garantir un tri correct
-    # Article 0 = 08:00, Article 1 = 08:10, Article 2 = 08:20
+    # Compte les articles existants pour cette categorie aujourd'hui
+    # pour attribuer un timestamp unique (08:00, 08:01, 08:02, ...)
+    existing_count = count_existing_articles_today(cat, today)
     article_hour = 8
-    article_minute = article_index * 10
+    article_minute = existing_count
 
     # Generer la section FAQ en front matter pour le schema JSON-LD
     faq_items = seo.get("faq", [])

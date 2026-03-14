@@ -1,7 +1,7 @@
 ---
 title: "Images mentales absurdes : mémorisez 20 prénoms sans effort"
-date: 2026-03-14T08:20:00+01:00
-lastmod: 2026-03-14T08:20:00+01:00
+date: 2026-03-14T08:01:00+01:00
+lastmod: 2026-03-14T08:01:00+01:00
 description: "Découvrez comment l'association d'images mentales absurdes permet de retenir les prénoms en networking. Boostez votre mémoire et ne subissez plus l'oubli."
 categories: ["Memorisation"]
 tags: ["images-mentales-absurdes", "memorisation-prenoms", "technique-de-memorisation", "networking-efficace", "ancrage-visuel", "methode-de-loci", "retention-information"]

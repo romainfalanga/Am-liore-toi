@@ -1,7 +1,7 @@
 ---
 title: "Time-blocking : maîtriser le planning par blocs en télétravail"
-date: 2026-03-14T08:10:00+01:00
-lastmod: 2026-03-14T08:10:00+01:00
+date: 2026-03-14T08:02:00+01:00
+lastmod: 2026-03-14T08:02:00+01:00
 description: "Découvrez comment la technique du time-blocking permet de concilier vie de famille et travail indépendant. Reprenez le contrôle de votre agenda dès maintenant."
 categories: ["Productivite"]
 tags: ["time-blocking", "planning par blocs", "productivite teletravail", "gestion du temps parents", "organisation travail independant", "methode travail profond", "equilibre vie pro vie perso"]

@@ -1,7 +1,7 @@
 ---
 title: "Communication non-violente : stopper les disputes de couple"
-date: 2026-03-14T08:00:00+01:00
-lastmod: 2026-03-14T08:00:00+01:00
+date: 2026-03-14T08:02:00+01:00
+lastmod: 2026-03-14T08:02:00+01:00
 description: "Apprenez à utiliser la communication non-violente pour éviter les généralisations et apaiser vos tensions amoureuses. Transformez vos échanges dès aujourd'hui."
 categories: ["Communication"]
 tags: ["communication-non-violente", "cnv-couple", "gerer-conflit-amoureux", "arreter-de-generaliser", "communication-bienveillante", "relation-de-couple", "gestion-des-emotions"]

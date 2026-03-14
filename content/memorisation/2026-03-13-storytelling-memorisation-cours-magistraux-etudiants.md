@@ -1,7 +1,7 @@
 ---
 title: "Storytelling pour mémoriser : retenez vos cours magistraux"
-date: 2026-03-13T08:00:00+01:00
-lastmod: 2026-03-13T08:00:00+01:00
+date: 2026-03-13T08:04:00+01:00
+lastmod: 2026-03-13T08:04:00+01:00
 description: "Découvrez comment la technique du storytelling permet de mémoriser des concepts complexes et d'éviter l'oubli après un cours de 3 heures. Boostez votre mémoire."
 categories: ["Memorisation"]
 tags: ["storytelling-memorisation", "retenir-un-cours", "memoire-etudiante", "methode-apprentissage", "sciences-politiques", "concentration-amphi", "eviter-oubli"]

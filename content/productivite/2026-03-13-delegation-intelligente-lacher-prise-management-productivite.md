@@ -1,6 +1,6 @@
 ---
 title: "Délégation intelligente et lâcher-prise : libérez votre temps"
-date: 2026-03-13T08:00:00+01:00
+date: 2026-03-13T08:01:00+01:00
 description: "Manager 10 personnes sans s'épuiser ? Découvrez comment Adrien a maîtrisé la délégation intelligente pour retrouver sa productivité. Lisez nos conseils !"
 categories: ["Productivite"]
 tags: ["delegation", "management", "productivite", "leadership", "lacher-prise"]

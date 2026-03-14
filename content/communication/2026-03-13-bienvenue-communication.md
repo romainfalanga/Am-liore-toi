@@ -1,6 +1,6 @@
 ---
 title: "L'ecoute active : la competence qui transforme toutes vos conversations"
-date: 2026-03-13T08:00:00+01:00
+date: 2026-03-13T08:01:00+01:00
 description: "Decouvrez comment l'ecoute active peut transformer vos relations. 3 techniques concretes pour mieux communiquer des aujourd'hui."
 categories: ["Communication"]
 tags: ["ecoute-active", "communication", "relations", "developpement-personnel"]
