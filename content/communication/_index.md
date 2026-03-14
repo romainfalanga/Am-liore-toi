@@ -1,4 +1,4 @@
 ---
 title: "Communication"
-description: "Apprenez a mieux communiquer dans toutes les situations de la vie quotidienne et professionnelle."
+description: "Apprenez à mieux communiquer dans toutes les situations de la vie quotidienne et professionnelle."
 ---

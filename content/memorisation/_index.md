@@ -1,4 +1,4 @@
 ---
-title: "Memorisation"
-description: "Developpez une memoire puissante grace a des techniques eprouvees et des exercices pratiques."
+title: "Mémorisation"
+description: "Développez une mémoire puissante grâce à des techniques éprouvées et des exercices pratiques."
 ---

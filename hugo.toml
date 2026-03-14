@@ -1,14 +1,14 @@
 baseURL = "/"
 languageCode = "fr"
-title = "Ameliore-toi | Communication, Productivite, Memorisation"
+title = "Améliore-toi | Communication, Productivité, Mémorisation"
 defaultContentLanguage = "fr"
 enableRobotsTXT = true
 enableGitInfo = false
 buildFuture = true
 
 [params]
-  description = "Devenez une meilleure version de vous-meme grace a nos articles quotidiens sur la communication, la productivite et la memorisation."
-  author = "Ameliore-toi"
+  description = "Devenez une meilleure version de vous-même grâce à nos articles quotidiens sur la communication, la productivité et la mémorisation."
+  author = "Améliore-toi"
   mainSections = ["communication", "productivite", "memorisation"]
 
 [taxonomies]
@@ -60,11 +60,11 @@ buildFuture = true
     url = "/communication/"
     weight = 1
   [[menu.main]]
-    name = "Productivite"
+    name = "Productivité"
     url = "/productivite/"
     weight = 2
   [[menu.main]]
-    name = "Memorisation"
+    name = "Mémorisation"
     url = "/memorisation/"
     weight = 3
 
