@@ -143,6 +143,42 @@
       "contexte": "apprentissage de la terminologie medicale en stage",
       "problematique": "surcharge cognitive qui empeche toute nouvelle absorption",
       "slug": "chunking-structuration-memorisation-terminologie-medicale"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "communication",
+      "titre": "Excuses sincères : l'art de reconnaître ses torts au travail",
+      "prenom": "Nathan",
+      "age": 29,
+      "tranche_age": "25-34 ans (jeune professionnel)",
+      "aspect": "art de presenter des excuses sinceres",
+      "contexte": "conversation ou l'on doit admettre ses torts",
+      "problematique": "incapacite a recevoir une critique sans se braquer",
+      "slug": "art-presenter-excuses-sinceres-communication-professionnelle"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "productivite",
+      "titre": "Time-blocking : maîtriser le planning par blocs en télétravail",
+      "prenom": "Alice",
+      "age": 38,
+      "tranche_age": "35-44 ans (professionnel confirme)",
+      "aspect": "technique du time-blocking et planning par blocs",
+      "contexte": "journee fractionnee entre enfants et travail",
+      "problematique": "mode reactif permanent sans vision strategique",
+      "slug": "time-blocking-planning-blocs-teletravail-famille"
+    },
+    {
+      "date": "2026-03-14",
+      "categorie": "memorisation",
+      "titre": "Mnémonique par acronymes : mémoriser 50 procédures de sécurité",
+      "prenom": "Louis",
+      "age": 22,
+      "tranche_age": "18-24 ans (etudiant/jeune actif)",
+      "aspect": "mnemotechnique par acronymes et phrases cles",
+      "contexte": "memorisation de 50 procedures de securite au travail",
+      "problematique": "saturation informationnelle et paralysie par le volume",
+      "slug": "mnemonique-acronymes-memorisation-procedures-securite"
     }
   ],
   "prenoms_utilises": [
@@ -157,7 +193,10 @@
     "Arthur",
     "Thomas",
     "Emma",
-    "Hugo"
+    "Hugo",
+    "Nathan",
+    "Alice",
+    "Louis"
   ],
   "combinaisons_utilisees": [
     {
@@ -254,6 +293,30 @@
       "contexte": "apprentissage de la terminologie medicale en stage",
       "problematique": "surcharge cognitive qui empeche toute nouvelle absorption",
       "prenom": "Hugo",
+      "age": "18-24 ans (etudiant/jeune actif)"
+    },
+    {
+      "categorie": "communication",
+      "aspect": "art de presenter des excuses sinceres",
+      "contexte": "conversation ou l'on doit admettre ses torts",
+      "problematique": "incapacite a recevoir une critique sans se braquer",
+      "prenom": "Nathan",
+      "age": "25-34 ans (jeune professionnel)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "technique du time-blocking et planning par blocs",
+      "contexte": "journee fractionnee entre enfants et travail",
+      "problematique": "mode reactif permanent sans vision strategique",
+      "prenom": "Alice",
+      "age": "35-44 ans (professionnel confirme)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "mnemotechnique par acronymes et phrases cles",
+      "contexte": "memorisation de 50 procedures de securite au travail",
+      "problematique": "saturation informationnelle et paralysie par le volume",
+      "prenom": "Louis",
       "age": "18-24 ans (etudiant/jeune actif)"
     }
   ]
