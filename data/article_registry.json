@@ -287,6 +287,42 @@
       "contexte": "preparation d'un concours administratif tres selectif",
       "problematique": "relecture repetitive sans aucune retention reelle",
       "slug": "methode-sq3r-memorisation-lecture-concours-administratif"
+    },
+    {
+      "date": "2026-03-15",
+      "categorie": "communication",
+      "titre": "Art du questionnement puissant : l'alternative aux conseils",
+      "prenom": "Yasmine",
+      "age": 29,
+      "tranche_age": "25-34 ans (jeune professionnel)",
+      "aspect": "art du questionnement puissant",
+      "contexte": "mediation entre deux membres de la famille",
+      "problematique": "tendance a donner des conseils non sollicites",
+      "slug": "art-questionnement-puissant-mediation-familiale"
+    },
+    {
+      "date": "2026-03-15",
+      "categorie": "productivite",
+      "titre": "Gérer le perfectionnisme : 3 stratégies pour enfin livrer",
+      "prenom": "Liam",
+      "age": 22,
+      "tranche_age": "18-24 ans (etudiant/jeune actif)",
+      "aspect": "gestion du perfectionnisme au service de l'avancement",
+      "contexte": "journee de creation sous pression avec livrable artistique",
+      "problematique": "perfectionnisme paralysant qui empeche de livrer",
+      "slug": "gerer-perfectionnisme-productivite-livrer-projets-creatifs"
+    },
+    {
+      "date": "2026-03-15",
+      "categorie": "memorisation",
+      "titre": "Technique Feynman : simplifier pour mieux mémoriser le code",
+      "prenom": "Florence",
+      "age": 58,
+      "tranche_age": "55-64 ans (fin de carriere)",
+      "aspect": "technique Feynman de simplification maximale",
+      "contexte": "apprentissage autodidacte de la programmation",
+      "problematique": "incapacite a relier les nouvelles infos au vecu personnel",
+      "slug": "technique-feynman-memorisation-programmation-autodidacte"
     }
   ],
   "prenoms_utilises": [
@@ -313,7 +349,10 @@
     "Antoine",
     "Jules",
     "Juliette",
-    "Marc"
+    "Marc",
+    "Yasmine",
+    "Liam",
+    "Florence"
   ],
   "combinaisons_utilisees": [
     {
@@ -507,6 +546,30 @@
       "problematique": "relecture repetitive sans aucune retention reelle",
       "prenom": "Marc",
       "age": "45-54 ans (professionnel senior)"
+    },
+    {
+      "categorie": "communication",
+      "aspect": "art du questionnement puissant",
+      "contexte": "mediation entre deux membres de la famille",
+      "problematique": "tendance a donner des conseils non sollicites",
+      "prenom": "Yasmine",
+      "age": "25-34 ans (jeune professionnel)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "gestion du perfectionnisme au service de l'avancement",
+      "contexte": "journee de creation sous pression avec livrable artistique",
+      "problematique": "perfectionnisme paralysant qui empeche de livrer",
+      "prenom": "Liam",
+      "age": "18-24 ans (etudiant/jeune actif)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "technique Feynman de simplification maximale",
+      "contexte": "apprentissage autodidacte de la programmation",
+      "problematique": "incapacite a relier les nouvelles infos au vecu personnel",
+      "prenom": "Florence",
+      "age": "55-64 ans (fin de carriere)"
     }
   ]
 }
