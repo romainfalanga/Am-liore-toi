@@ -323,6 +323,42 @@
       "contexte": "apprentissage autodidacte de la programmation",
       "problematique": "incapacite a relier les nouvelles infos au vecu personnel",
       "slug": "technique-feynman-memorisation-programmation-autodidacte"
+    },
+    {
+      "date": "2026-03-16",
+      "categorie": "communication",
+      "titre": "Communication managériale : comment poser des limites claires",
+      "prenom": "Alexandre",
+      "age": 29,
+      "tranche_age": "25-34 ans (jeune professionnel)",
+      "aspect": "communication manageriale et leadership",
+      "contexte": "prise de poste en tant que nouveau manager",
+      "problematique": "difficulte a poser des limites claires verbalement",
+      "slug": "communication-manageriale-poser-limites-nouveau-manager"
+    },
+    {
+      "date": "2026-03-16",
+      "categorie": "productivite",
+      "titre": "Fatigue décisionnelle : comment décider vite et mieux au travail",
+      "prenom": "Marine",
+      "age": 38,
+      "tranche_age": "35-44 ans (professionnel confirme)",
+      "aspect": "prise de decision rapide et reduction de la fatigue decisionnelle",
+      "contexte": "organisation d'un evenement professionnel majeur",
+      "problematique": "epuisement decisionnel en fin de journee",
+      "slug": "vaincre-fatigue-decisionnelle-productivite-evenementiel"
+    },
+    {
+      "date": "2026-03-16",
+      "categorie": "memorisation",
+      "titre": "Mémoire prospective : comment ne plus oublier ce qu'on doit faire",
+      "prenom": "Pierre",
+      "age": 72,
+      "tranche_age": "65+ ans (retraite active)",
+      "aspect": "memoire prospective et se souvenir de ce qu'on doit faire",
+      "contexte": "maintien des acquis cognitifs apres 60 ans",
+      "problematique": "absence totale de methode et apprentissage desorganise",
+      "slug": "memoire-prospective-se-souvenir-actions-futures"
     }
   ],
   "prenoms_utilises": [
@@ -352,7 +388,10 @@
     "Marc",
     "Yasmine",
     "Liam",
-    "Florence"
+    "Florence",
+    "Alexandre",
+    "Marine",
+    "Pierre"
   ],
   "combinaisons_utilisees": [
     {
@@ -570,6 +609,30 @@
       "problematique": "incapacite a relier les nouvelles infos au vecu personnel",
       "prenom": "Florence",
       "age": "55-64 ans (fin de carriere)"
+    },
+    {
+      "categorie": "communication",
+      "aspect": "communication manageriale et leadership",
+      "contexte": "prise de poste en tant que nouveau manager",
+      "problematique": "difficulte a poser des limites claires verbalement",
+      "prenom": "Alexandre",
+      "age": "25-34 ans (jeune professionnel)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "prise de decision rapide et reduction de la fatigue decisionnelle",
+      "contexte": "organisation d'un evenement professionnel majeur",
+      "problematique": "epuisement decisionnel en fin de journee",
+      "prenom": "Marine",
+      "age": "35-44 ans (professionnel confirme)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "memoire prospective et se souvenir de ce qu'on doit faire",
+      "contexte": "maintien des acquis cognitifs apres 60 ans",
+      "problematique": "absence totale de methode et apprentissage desorganise",
+      "prenom": "Pierre",
+      "age": "65+ ans (retraite active)"
     }
   ]
 }
