@@ -359,6 +359,42 @@
       "contexte": "maintien des acquis cognitifs apres 60 ans",
       "problematique": "absence totale de methode et apprentissage desorganise",
       "slug": "memoire-prospective-se-souvenir-actions-futures"
+    },
+    {
+      "date": "2026-03-17",
+      "categorie": "communication",
+      "titre": "Communication assertive au travail : gérer le stress et l'injustice",
+      "prenom": "Maxime",
+      "age": 29,
+      "tranche_age": "25-34 ans (jeune professionnel)",
+      "aspect": "communication assertive en situation de stress",
+      "contexte": "confrontation avec un superieur hierarchique injuste",
+      "problematique": "agressivite passive qui empoisonne les relations",
+      "slug": "communication-assertive-travail-stress-manager-injuste"
+    },
+    {
+      "date": "2026-03-17",
+      "categorie": "productivite",
+      "titre": "Gestion de l'énergie sociale : booster sa concentration en open space",
+      "prenom": "Leila",
+      "age": 38,
+      "tranche_age": "35-44 ans (professionnel confirme)",
+      "aspect": "gestion de l'energie sociale et introversion/extroversion",
+      "contexte": "journee en open space bruyant avec interruptions constantes",
+      "problematique": "dispersion mentale permanente et incapacite a se focaliser",
+      "slug": "gestion-energie-sociale-productivite-open-space"
+    },
+    {
+      "date": "2026-03-17",
+      "categorie": "memorisation",
+      "titre": "Cartes mentales : mémoriser une langue étrangère sans abandon",
+      "prenom": "Victor",
+      "age": 21,
+      "tranche_age": "18-24 ans (etudiant/jeune actif)",
+      "aspect": "cartes mentales et pensee visuelle",
+      "contexte": "apprentissage d'une langue etrangere depuis zero",
+      "problematique": "motivation en dents de scie et abandons frequents",
+      "slug": "cartes-mentales-memorisation-langue-etrangere-debutant"
     }
   ],
   "prenoms_utilises": [
@@ -391,7 +427,10 @@
     "Florence",
     "Alexandre",
     "Marine",
-    "Pierre"
+    "Pierre",
+    "Maxime",
+    "Leila",
+    "Victor"
   ],
   "combinaisons_utilisees": [
     {
@@ -633,6 +672,30 @@
       "problematique": "absence totale de methode et apprentissage desorganise",
       "prenom": "Pierre",
       "age": "65+ ans (retraite active)"
+    },
+    {
+      "categorie": "communication",
+      "aspect": "communication assertive en situation de stress",
+      "contexte": "confrontation avec un superieur hierarchique injuste",
+      "problematique": "agressivite passive qui empoisonne les relations",
+      "prenom": "Maxime",
+      "age": "25-34 ans (jeune professionnel)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "gestion de l'energie sociale et introversion/extroversion",
+      "contexte": "journee en open space bruyant avec interruptions constantes",
+      "problematique": "dispersion mentale permanente et incapacite a se focaliser",
+      "prenom": "Leila",
+      "age": "35-44 ans (professionnel confirme)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "cartes mentales et pensee visuelle",
+      "contexte": "apprentissage d'une langue etrangere depuis zero",
+      "problematique": "motivation en dents de scie et abandons frequents",
+      "prenom": "Victor",
+      "age": "18-24 ans (etudiant/jeune actif)"
     }
   ]
 }
