@@ -395,6 +395,42 @@
       "contexte": "apprentissage d'une langue etrangere depuis zero",
       "problematique": "motivation en dents de scie et abandons frequents",
       "slug": "cartes-mentales-memorisation-langue-etrangere-debutant"
+    },
+    {
+      "date": "2026-03-18",
+      "categorie": "communication",
+      "titre": "Communication numérique : gérer les malentendus sur les réseaux",
+      "prenom": "Mael",
+      "age": 22,
+      "tranche_age": "18-24 ans (etudiant/jeune actif)",
+      "aspect": "communication numerique et reseaux sociaux",
+      "contexte": "gestion d'un malentendu qui a degenere",
+      "problematique": "interpretation systematiquement negative des messages",
+      "slug": "communication-numerique-gerer-malentendu-reseaux-sociaux"
+    },
+    {
+      "date": "2026-03-18",
+      "categorie": "productivite",
+      "titre": "Technique des 2 minutes GTD : stop à la paperasse accumulée",
+      "prenom": "Caroline",
+      "age": 41,
+      "tranche_age": "35-44 ans (professionnel confirme)",
+      "aspect": "technique des 2 minutes de David Allen (GTD)",
+      "contexte": "gestion administrative et paperasse accumulee",
+      "problematique": "accumulation de projets non termines et culpabilite",
+      "slug": "technique-2-minutes-gtd-gestion-administrative"
+    },
+    {
+      "date": "2026-03-18",
+      "categorie": "memorisation",
+      "titre": "Écriture manuscrite ou numérique : quelle méthode pour mémoriser ?",
+      "prenom": "Jerome",
+      "age": 49,
+      "tranche_age": "45-54 ans (professionnel senior)",
+      "aspect": "ecriture manuscrite versus numerique pour la retention",
+      "contexte": "synthese de notes de reunion a retenir sans support",
+      "problematique": "distraction numerique permanente qui fragmente l'attention",
+      "slug": "ecriture-manuscrite-versus-numerique-memorisation-reunion"
     }
   ],
   "prenoms_utilises": [
@@ -430,7 +466,10 @@
     "Pierre",
     "Maxime",
     "Leila",
-    "Victor"
+    "Victor",
+    "Mael",
+    "Caroline",
+    "Jerome"
   ],
   "combinaisons_utilisees": [
     {
@@ -696,6 +735,30 @@
       "problematique": "motivation en dents de scie et abandons frequents",
       "prenom": "Victor",
       "age": "18-24 ans (etudiant/jeune actif)"
+    },
+    {
+      "categorie": "communication",
+      "aspect": "communication numerique et reseaux sociaux",
+      "contexte": "gestion d'un malentendu qui a degenere",
+      "problematique": "interpretation systematiquement negative des messages",
+      "prenom": "Mael",
+      "age": "18-24 ans (etudiant/jeune actif)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "technique des 2 minutes de David Allen (GTD)",
+      "contexte": "gestion administrative et paperasse accumulee",
+      "problematique": "accumulation de projets non termines et culpabilite",
+      "prenom": "Caroline",
+      "age": "35-44 ans (professionnel confirme)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "ecriture manuscrite versus numerique pour la retention",
+      "contexte": "synthese de notes de reunion a retenir sans support",
+      "problematique": "distraction numerique permanente qui fragmente l'attention",
+      "prenom": "Jerome",
+      "age": "45-54 ans (professionnel senior)"
     }
   ]
 }
