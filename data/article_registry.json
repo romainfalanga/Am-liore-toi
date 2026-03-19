@@ -431,6 +431,42 @@
       "contexte": "synthese de notes de reunion a retenir sans support",
       "problematique": "distraction numerique permanente qui fragmente l'attention",
       "slug": "ecriture-manuscrite-versus-numerique-memorisation-reunion"
+    },
+    {
+      "date": "2026-03-19",
+      "categorie": "communication",
+      "titre": "Communication interculturelle : reussir ses visios mondiales",
+      "prenom": "Samuel",
+      "age": 38,
+      "tranche_age": "35-44 ans (professionnel confirme)",
+      "aspect": "communication interculturelle et diversite",
+      "contexte": "reunion en visioconference avec une equipe internationale",
+      "problematique": "difficulte a adapter son discours a son interlocuteur",
+      "slug": "communication-interculturelle-reunion-equipe-internationale"
+    },
+    {
+      "date": "2026-03-19",
+      "categorie": "productivite",
+      "titre": "Automatisation des tâches répétitives : boostez votre productivité",
+      "prenom": "Jade",
+      "age": 29,
+      "tranche_age": "25-34 ans (jeune professionnel)",
+      "aspect": "automatisation des taches repetitives",
+      "contexte": "gestion de 5 clients freelance en parallele",
+      "problematique": "illusion de productivite via les taches faciles et agreables",
+      "slug": "automatisation-taches-repetitives-productivite-freelance"
+    },
+    {
+      "date": "2026-03-19",
+      "categorie": "memorisation",
+      "titre": "Mémoire procédurale : automatiser vos gestes au piano",
+      "prenom": "Robin",
+      "age": 21,
+      "tranche_age": "18-24 ans (etudiant/jeune actif)",
+      "aspect": "memoire procedurale et automatisation des gestes",
+      "contexte": "apprentissage d'un morceau de piano complexe",
+      "problematique": "interference entre anciennes et nouvelles informations",
+      "slug": "memoire-procedurale-automatisation-gestes-piano"
     }
   ],
   "prenoms_utilises": [
@@ -469,7 +505,10 @@
     "Victor",
     "Mael",
     "Caroline",
-    "Jerome"
+    "Jerome",
+    "Samuel",
+    "Jade",
+    "Robin"
   ],
   "combinaisons_utilisees": [
     {
@@ -759,6 +798,30 @@
       "problematique": "distraction numerique permanente qui fragmente l'attention",
       "prenom": "Jerome",
       "age": "45-54 ans (professionnel senior)"
+    },
+    {
+      "categorie": "communication",
+      "aspect": "communication interculturelle et diversite",
+      "contexte": "reunion en visioconference avec une equipe internationale",
+      "problematique": "difficulte a adapter son discours a son interlocuteur",
+      "prenom": "Samuel",
+      "age": "35-44 ans (professionnel confirme)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "automatisation des taches repetitives",
+      "contexte": "gestion de 5 clients freelance en parallele",
+      "problematique": "illusion de productivite via les taches faciles et agreables",
+      "prenom": "Jade",
+      "age": "25-34 ans (jeune professionnel)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "memoire procedurale et automatisation des gestes",
+      "contexte": "apprentissage d'un morceau de piano complexe",
+      "problematique": "interference entre anciennes et nouvelles informations",
+      "prenom": "Robin",
+      "age": "18-24 ans (etudiant/jeune actif)"
     }
   ]
 }
