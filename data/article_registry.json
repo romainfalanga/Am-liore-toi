@@ -467,6 +467,42 @@
       "contexte": "apprentissage d'un morceau de piano complexe",
       "problematique": "interference entre anciennes et nouvelles informations",
       "slug": "memoire-procedurale-automatisation-gestes-piano"
+    },
+    {
+      "date": "2026-03-20",
+      "categorie": "communication",
+      "titre": "Diplomatie et tact : annoncer une mauvaise nouvelle à un proche",
+      "prenom": "Damien",
+      "age": 48,
+      "tranche_age": "45-54 ans (professionnel senior)",
+      "aspect": "diplomatie et tact",
+      "contexte": "annonce d'une mauvaise nouvelle a un proche",
+      "problematique": "peur de l'intimite emotionnelle dans les echanges profonds",
+      "slug": "diplomatie-tact-annoncer-mauvaise-nouvelle-proche"
+    },
+    {
+      "date": "2026-03-20",
+      "categorie": "productivite",
+      "titre": "Productivité créative : concilier salariat et projets personnels",
+      "prenom": "Clara",
+      "age": 29,
+      "tranche_age": "25-34 ans (jeune professionnel)",
+      "aspect": "productivite creative et gestion de l'inspiration",
+      "contexte": "jonglage entre travail salarie et projet personnel le soir",
+      "problematique": "deconnexion entre ses valeurs profondes et ses taches quotidiennes",
+      "slug": "productivite-creative-salariat-projet-personnel-inspiration"
+    },
+    {
+      "date": "2026-03-20",
+      "categorie": "memorisation",
+      "titre": "Auto-test et mémorisation : réussir l'examen du barreau",
+      "prenom": "Adam",
+      "age": 23,
+      "tranche_age": "18-24 ans (etudiant/jeune actif)",
+      "aspect": "auto-test et generation de questions",
+      "contexte": "revision d'un code juridique pour un examen du barreau",
+      "problematique": "panique aux examens qui efface tout le travail de revision",
+      "slug": "auto-test-generation-questions-memorisation-droit"
     }
   ],
   "prenoms_utilises": [
@@ -508,7 +544,10 @@
     "Jerome",
     "Samuel",
     "Jade",
-    "Robin"
+    "Robin",
+    "Damien",
+    "Clara",
+    "Adam"
   ],
   "combinaisons_utilisees": [
     {
@@ -821,6 +860,30 @@
       "contexte": "apprentissage d'un morceau de piano complexe",
       "problematique": "interference entre anciennes et nouvelles informations",
       "prenom": "Robin",
+      "age": "18-24 ans (etudiant/jeune actif)"
+    },
+    {
+      "categorie": "communication",
+      "aspect": "diplomatie et tact",
+      "contexte": "annonce d'une mauvaise nouvelle a un proche",
+      "problematique": "peur de l'intimite emotionnelle dans les echanges profonds",
+      "prenom": "Damien",
+      "age": "45-54 ans (professionnel senior)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "productivite creative et gestion de l'inspiration",
+      "contexte": "jonglage entre travail salarie et projet personnel le soir",
+      "problematique": "deconnexion entre ses valeurs profondes et ses taches quotidiennes",
+      "prenom": "Clara",
+      "age": "25-34 ans (jeune professionnel)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "auto-test et generation de questions",
+      "contexte": "revision d'un code juridique pour un examen du barreau",
+      "problematique": "panique aux examens qui efface tout le travail de revision",
+      "prenom": "Adam",
       "age": "18-24 ans (etudiant/jeune actif)"
     }
   ]
