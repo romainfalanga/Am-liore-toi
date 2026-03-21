@@ -1,11 +1,7 @@
-name: Generate Daily Articles
+name: Generate Articles
 
 on:
-  schedule:
-    # Tous les jours a 8h du matin (heure de Paris = 7h UTC en hiver, 6h UTC en ete)
-    # On met 7h UTC pour couvrir l'heure de Paris (CET)
-    - cron: '0 7 * * *'
-  workflow_dispatch: # Permet le declenchement manuel
+  workflow_dispatch: # Declenchement manuel uniquement via Actions GitHub
 
 permissions:
   contents: write
