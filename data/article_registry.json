@@ -503,6 +503,42 @@
       "contexte": "revision d'un code juridique pour un examen du barreau",
       "problematique": "panique aux examens qui efface tout le travail de revision",
       "slug": "auto-test-generation-questions-memorisation-droit"
+    },
+    {
+      "date": "2026-03-21",
+      "categorie": "communication",
+      "titre": "Art de vulgariser : comment rendre vos propos accessibles à tous",
+      "prenom": "Theo",
+      "age": 38,
+      "tranche_age": "35-44 ans (professionnel confirme)",
+      "aspect": "art de vulgariser et rendre accessible",
+      "contexte": "reunion parents-professeurs pour un enfant en difficulte",
+      "problematique": "communication trop intellectuelle deconnectee des emotions",
+      "slug": "art-vulgariser-rendre-communication-accessible-emotions"
+    },
+    {
+      "date": "2026-03-21",
+      "categorie": "productivite",
+      "titre": "Optimisation des transitions entre tâches : gérez mieux votre temps",
+      "prenom": "Lea",
+      "age": 29,
+      "tranche_age": "25-34 ans (jeune professionnel)",
+      "aspect": "optimisation des transitions entre taches",
+      "contexte": "gestion d'un demenagement en pleine periode de travail",
+      "problematique": "incapacite a estimer correctement le temps necessaire",
+      "slug": "optimisation-transitions-taches-productivite-demenagement"
+    },
+    {
+      "date": "2026-03-21",
+      "categorie": "memorisation",
+      "titre": "Apprentissage intercalé : mémoriser lors d'une formation dense",
+      "prenom": "Paul",
+      "age": 52,
+      "tranche_age": "45-54 ans (professionnel senior)",
+      "aspect": "apprentissage intercale de sujets differents",
+      "contexte": "formation professionnelle de 3 jours ultra-dense",
+      "problematique": "incapacite a se concentrer plus de 10 minutes",
+      "slug": "apprentissage-intercale-memorisation-formation-professionnelle"
     }
   ],
   "prenoms_utilises": [
@@ -547,7 +583,10 @@
     "Robin",
     "Damien",
     "Clara",
-    "Adam"
+    "Adam",
+    "Theo",
+    "Lea",
+    "Paul"
   ],
   "combinaisons_utilisees": [
     {
@@ -885,6 +924,30 @@
       "problematique": "panique aux examens qui efface tout le travail de revision",
       "prenom": "Adam",
       "age": "18-24 ans (etudiant/jeune actif)"
+    },
+    {
+      "categorie": "communication",
+      "aspect": "art de vulgariser et rendre accessible",
+      "contexte": "reunion parents-professeurs pour un enfant en difficulte",
+      "problematique": "communication trop intellectuelle deconnectee des emotions",
+      "prenom": "Theo",
+      "age": "35-44 ans (professionnel confirme)"
+    },
+    {
+      "categorie": "productivite",
+      "aspect": "optimisation des transitions entre taches",
+      "contexte": "gestion d'un demenagement en pleine periode de travail",
+      "problematique": "incapacite a estimer correctement le temps necessaire",
+      "prenom": "Lea",
+      "age": "25-34 ans (jeune professionnel)"
+    },
+    {
+      "categorie": "memorisation",
+      "aspect": "apprentissage intercale de sujets differents",
+      "contexte": "formation professionnelle de 3 jours ultra-dense",
+      "problematique": "incapacite a se concentrer plus de 10 minutes",
+      "prenom": "Paul",
+      "age": "45-54 ans (professionnel senior)"
     }
   ]
 }
